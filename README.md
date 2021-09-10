@@ -7,6 +7,7 @@ A reference database(bibtex) for NLP related papers. It includes the following t
 - parallel decoding and non-autoregressive Transformers
 - reasoning and QA 
 - text summarization
+- pre-trained langauge models
 
 Recommended procedure to update:
 1. create a seperate and normalized bibtex file for additional entries, using the `rebiber` package:
