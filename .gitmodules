@@ -1,0 +1,3 @@
+[submodule "rebiber"]
+	path = rebiber
+	url = git@github.com:yuchenlin/rebiber.git
