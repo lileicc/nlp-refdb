@@ -21,26 +21,24 @@ Gu, Jiatao},
  year = {2020}
 }
 
-@article{cattoni2021mustc,
- abstract = {End-to-end spoken language translation (SLT) has recently gained popularity thanks to the advancement of sequence to sequence learning in its two parent tasks: automatic speech recognition (ASR) and machine translation (MT). However, research in the field has to confront with the scarcity of publicly available corpora to train data-hungry neural networks. Indeed, while traditional cascade solutions can build on sizable ASR and MT training data for a variety of languages, the available SLT corpora suitable for end-to-end training are few, typically small and of limited language coverage. We contribute to fill this gap by presenting MuST-C, a large and freely available Multilingual Speech Translation Corpus built from English TED Talks. Its unique features include: i) language coverage and diversity (from English into 14 languages from different families), ii) size (at least 237 hours of transcribed recordings per language, 430 on average), iii) variety of topics and speakers, and iv) data quality. Besides describing the corpus creation methodology and discussing the outcomes of empirical and manual quality evaluations, we present baseline results computed with strong systems on each language direction covered by MuST-C.},
- author = {Roldano Cattoni and Mattia Antonino {Di Gangi} and Luisa Bentivogli and Matteo Negri and Marco Turchi},
- issn = {0885-2308},
- journal = {Computer Speech and Language},
- keywords = {Spoken language translation, Multilingual corpus},
- pages = {101155},
- title = {MuST-C: A multilingual corpus for end-to-end speech translation},
- volume = {66},
- year = {2021}
+@Article{cattoni2021must,
+  author   = {Roldano Cattoni and Mattia Antonino {Di Gangi} and Luisa Bentivogli and Matteo Negri and Marco Turchi},
+  journal  = {Computer Speech and Language},
+  title    = {MuST-C: A multilingual corpus for end-to-end speech translation},
+  year     = {2021},
+  issn     = {0885-2308},
+  pages    = {101155},
+  volume   = {66},
+  abstract = {End-to-end spoken language translation (SLT) has recently gained popularity thanks to the advancement of sequence to sequence learning in its two parent tasks: automatic speech recognition (ASR) and machine translation (MT). However, research in the field has to confront with the scarcity of publicly available corpora to train data-hungry neural networks. Indeed, while traditional cascade solutions can build on sizable ASR and MT training data for a variety of languages, the available SLT corpora suitable for end-to-end training are few, typically small and of limited language coverage. We contribute to fill this gap by presenting MuST-C, a large and freely available Multilingual Speech Translation Corpus built from English TED Talks. Its unique features include: i) language coverage and diversity (from English into 14 languages from different families), ii) size (at least 237 hours of transcribed recordings per language, 430 on average), iii) variety of topics and speakers, and iv) data quality. Besides describing the corpus creation methodology and discussing the outcomes of empirical and manual quality evaluations, we present baseline results computed with strong systems on each language direction covered by MuST-C.},
+  keywords = {Spoken language translation, Multilingual corpus},
 }
 
-@inproceedings{hovy2020sound,
- author = {Hovy, Dirk  and
-Bianchi, Federico  and
-Fornaciari, Tommaso},
- booktitle = {Proc. of ACL},
- pages = {1686--1690},
- title = {{``}You Sound Just Like Your Father{''} Commercial Machine Translation Systems Include Stylistic Biases},
- year = {2020}
+@InProceedings{hovy2020you,
+  author    = {Hovy, Dirk and Bianchi, Federico and Fornaciari, Tommaso},
+  booktitle = {Proc. of ACL},
+  title     = {{``}You Sound Just Like Your Father{''} Commercial Machine Translation Systems Include Stylistic Biases},
+  year      = {2020},
+  pages     = {1686--1690},
 }
 
 @inproceedings{vanmassenhove2018getting,
@@ -54,7 +52,6 @@ Way, Andy},
 }
 
 @article{czarnowska2021quantifying,
- abstract = {Abstract Measuring bias is key for better understanding and addressing unfairness in NLP/ML models. This is often done via fairness metrics, which quantify the differences in a model{'}s behaviour across a range of demographic groups. In this work, we shed more light on the differences and similarities between the fairness metrics used in NLP. First, we unify a broad range of existing metrics under three generalized fairness metrics, revealing the connections between them. Next, we carry out an extensive empirical comparison of existing metrics and demonstrate that the observed differences in bias measurement can be systematically explained via differences in parameter choices for our generalized metrics.},
  author = {Czarnowska, Paula  and
 Vyas, Yogarshi  and
 Shah, Kashif},
@@ -66,7 +63,6 @@ Shah, Kashif},
 }
 
 @inproceedings{zhu2021counter,
- abstract = {Developing a unified multilingual model has been a long pursuing goal for machine translation. However, existing approaches suffer from performance degradation - a single multilingual model is inferior to separately trained bilingual ones on rich-resource languages. We conjecture that such a phenomenon is due to interference brought by joint training with multiple languages. To accommodate the issue, we propose CIAT, an adapted Transformer model with a small parameter overhead for multilingual machine translation. We evaluate CIAT on multiple benchmark datasets, including IWSLT, OPUS-100, and WMT. Experiments show that the CIAT consistently outperforms strong multilingual baselines on 64 of total 66 language directions, 42 of which have above 0.5 BLEU improvement.},
  author = {Zhu, Yaoming  and
 Feng, Jiangtao  and
 Zhao, Chengqi  and
@@ -144,12 +140,12 @@ Goldberg, Yoav},
  year = {2019}
 }
 
-@article{caliskan2017semantics,
- author = {Aylin Caliskan  and Joanna J. Bryson  and Arvind Narayanan },
- journal = {ArXiv preprint},
- title = {Semantics derived automatically from language corpora contain human-like biases},
- volume = {abs/10.1126},
- year = {2010}
+@Article{caliskan2010semantics,
+  author  = {Aylin Caliskan and Joanna J. Bryson and Arvind Narayanan},
+  journal = {ArXiv preprint},
+  title   = {Semantics derived automatically from language corpora contain human-like biases},
+  year    = {2010},
+  volume  = {abs/10.1126},
 }
 
 @inproceedings{bolukbasi2016man,
@@ -229,9 +225,12 @@ Representations},
 }
 
 @inproceedings{bahar2019using,
- author = {Bahar, Parnia and Zeyer, Albert and Schl{\"u}ter, Ralf and Ney, Hermann},
- booktitle = {Proc. of IWSLT},
- title = {On using specaugment for end-to-end speech translation},
+ author = {Bahar, Parnia  and
+Zeyer, Albert  and
+Schl{\"u}ter, Ralf  and
+Ney, Hermann},
+ booktitle = {Proceedings of the 16th International Conference on Spoken Language Translation},
+ title = {On Using {S}pec{A}ugment for End-to-End Speech Translation},
  year = {2019}
 }
 
@@ -303,11 +302,18 @@ Processing, {ICASSP} 2018, Calgary, AB, Canada, April 15-20, 2018},
  year = {2006}
 }
 
-@article{biadsy2019parrotron,
- author = {Biadsy, Fadi and Weiss, Ron J and Moreno, Pedro J and Kanvesky, Dimitri and Jia, Ye},
- journal = {ArXiv preprint},
- title = {Parrotron: An End-to-End Speech-to-Speech Conversion Model and its Applications to Hearing-Impaired Speech and Speech Separation},
- volume = {abs/1904.04169},
+@inproceedings{biadsy2019parrotron,
+ author = {Fadi Biadsy and
+Ron J. Weiss and
+Pedro J. Moreno and
+Dimitri Kanvesky and
+Ye Jia},
+ booktitle = {Proc. of INTERSPEECH},
+ editor = {Gernot Kubin and
+Zdravko Kacic},
+ pages = {4115--4119},
+ title = {Parrotron: An End-to-End Speech-to-Speech Conversion Model and its
+Applications to Hearing-Impaired Speech and Speech Separation},
  year = {2019}
 }
 
@@ -401,8 +407,12 @@ Liu, Yang},
 }
 
 @inproceedings{cheng2019breaking,
- author = {Cheng, Qiao and Fang, Meiyuan and Han, Yaqian and Huang, Jin and Duan, Yitao},
- booktitle = {Proc. of IWSLT},
+ author = {Cheng, Qiao  and
+Fan, Meiyuan  and
+Han, Yaqian  and
+Huang, Jin  and
+Duan, Yitao},
+ booktitle = {Proceedings of the 16th International Conference on Spoken Language Translation},
  title = {Breaking the Data Barrier: Towards Robust Speech Translation via Adversarial Stability Training},
  year = {2019}
 }
@@ -441,13 +451,13 @@ Toutanova, Kristina},
  year = {2019}
 }
 
-@inproceedings{digangi2019adapting,
- author = {Di Gangi, Mattia A and Negri, Matteo and Turchi, Marco},
- booktitle = {Proc. of INTERSPEECH},
- organization = {International Speech Communication Association (ISCA)},
- pages = {1133--1137},
- title = {Adapting transformer to end-to-end spoken language translation},
- year = {2019}
+@InProceedings{gangi2019adapting,
+  author    = {Mattia Antonino Di Gangi and Matteo Negri and Marco Turchi},
+  booktitle = {Proc. of INTERSPEECH},
+  title     = {Adapting Transformer to End-to-End Spoken Language Translation},
+  year      = {2019},
+  editor    = {Gernot Kubin and Zdravko Kacic},
+  pages     = {1133--1137},
 }
 
 @inproceedings{digangi2019enhancing,
@@ -631,16 +641,12 @@ Watanabe, Shinji},
  year = {2020}
 }
 
-@inproceedings{jan2018iwslt,
- author = {Cettolo, Mauro  and
-Niehues, Jan  and
-St{\"u}ker, Sebastian  and
-Bentivogli, Luisa  and
-Cattoni, Roldano  and
-Federico, Marcello},
- booktitle = {Proceedings of the 12th International Workshop on Spoken Language Translation: Evaluation Campaign},
- title = {The {IWSLT} 2015 Evaluation Campaign},
- year = {2015}
+@InProceedings{cettolo2015iwslt,
+  author    = {Cettolo, Mauro and Niehues, Jan and St{\"u}ker, Sebastian and Bentivogli, Luisa and Cattoni, Roldano and Federico, Marcello},
+  booktitle = {Proceedings of the 12th International Workshop on Spoken Language Translation: Evaluation Campaign},
+  title     = {The {IWSLT} 2015 Evaluation Campaign},
+  year      = {2015},
+  pages     = {2--14},
 }
 
 @inproceedings{jawahar2019what,
@@ -654,9 +660,18 @@ Seddah, Djam{\'e}},
 }
 
 @inproceedings{jia2019direct,
- author = {Jia, Ye and Weiss, Ron J and Biadsy, Fadi and Macherey, Wolfgang and Johnson, Melvin and Chen, Zhifeng and Wu, Yonghui},
+ author = {Ye Jia and
+Ron J. Weiss and
+Fadi Biadsy and
+Wolfgang Macherey and
+Melvin Johnson and
+Zhifeng Chen and
+Yonghui Wu},
  booktitle = {Proc. of INTERSPEECH},
- title = {Direct speech-to-speech translation with a sequence-to-sequence model},
+ editor = {Gernot Kubin and
+Zdravko Kacic},
+ pages = {1123--1127},
+ title = {Direct Speech-to-Speech Translation with a Sequence-to-Sequence Model},
  year = {2019}
 }
 
@@ -694,10 +709,14 @@ Model},
 }
 
 @inproceedings{kano2017structured,
- author = {Takatomo Kano and Sakriani Sakti and Satoshi Nakamura},
+ author = {Takatomo Kano and
+Sakriani Sakti and
+Satoshi Nakamura},
  booktitle = {Proc. of INTERSPEECH},
+ editor = {Francisco Lacerda},
  pages = {2630--2634},
- title = {Structured-Based Curriculum Learning for End-to-End English-Japanese Speech Translation},
+ title = {Structured-Based Curriculum Learning for End-to-End English-Japanese
+Speech Translation},
  year = {2017}
 }
 
@@ -812,9 +831,16 @@ Tiedemann, J{\"o}rg},
 }
 
 @inproceedings{liu2019end,
- author = {Yuchen Liu and Hao Xiong and Jiajun Zhang and Zhongjun He and Hua Wu and Haifeng Wang and Chengqing Zong},
+ author = {Yuchen Liu and
+Hao Xiong and
+Jiajun Zhang and
+Zhongjun He and
+Hua Wu and
+Haifeng Wang and
+Chengqing Zong},
  booktitle = {Proc. of INTERSPEECH},
- editor = {Gernot Kubin and Zdravko Kacic},
+ editor = {Gernot Kubin and
+Zdravko Kacic},
  pages = {1128--1132},
  title = {End-to-End Speech Translation with Knowledge Distillation},
  year = {2019}
@@ -842,9 +868,16 @@ Sun, Jason},
 }
 
 @inproceedings{lugosch2019speech,
- author = {Lugosch, Loren and Ravanelli, Mirco and Ignoto, Patrick and Tomar, Vikrant Singh and Bengio, Yoshua},
+ author = {Loren Lugosch and
+Mirco Ravanelli and
+Patrick Ignoto and
+Vikrant Singh Tomar and
+Yoshua Bengio},
  booktitle = {Proc. of INTERSPEECH},
- title = {Speech Model Pre-training for End-to-End Spoken Language Understanding},
+ editor = {Gernot Kubin and
+Zdravko Kacic},
+ pages = {814--818},
+ title = {Speech Model Pre-Training for End-to-End Spoken Language Understanding},
  year = {2019}
 }
 
@@ -918,15 +951,29 @@ Zhu, Wei-Jing},
 }
 
 @inproceedings{park2019specaugment,
- author = {Park, Daniel S and Chan, William and Zhang, Yu and Chiu, Chung-Cheng and Zoph, Barret and Cubuk, Ekin D and Le, Quoc V},
+ author = {Daniel S. Park and
+William Chan and
+Yu Zhang and
+Chung{-}Cheng Chiu and
+Barret Zoph and
+Ekin D. Cubuk and
+Quoc V. Le},
  booktitle = {Proc. of INTERSPEECH},
- title = {Specaugment: A simple data augmentation method for automatic speech recognition},
+ editor = {Gernot Kubin and
+Zdravko Kacic},
+ pages = {2613--2617},
+ title = {SpecAugment: {A} Simple Data Augmentation Method for Automatic Speech
+Recognition},
  year = {2019}
 }
 
 @inproceedings{peitz2012spoken,
- author = {Peitz, Stephan and Wiesler, Simon and Nu{\ss}baum-Thom, Markus and Ney, Hermann},
- booktitle = {Proc. of IWSLT},
+ author = {Peitz, Stephan  and
+Wiesler, Simon  and
+Nu{\ss}baum-Thom, Markus  and
+Ney, Hermann},
+ booktitle = {Proceedings of the 9th International Workshop on Spoken Language Translation: Papers},
+ pages = {276--283},
  title = {Spoken language translation using automatically transcribed text in training},
  year = {2012}
 }
@@ -956,29 +1003,38 @@ Zettlemoyer, Luke},
 }
 
 @article{chouldechova2020snapshot,
-  added-at = {2020-06-14T12:11:19.000+0200},
-  author = {Chouldechova, Alexandra and Roth, Aaron},
-  journal = {Communications of the ACM},
-  number = 5,
-  pages = {82--89},
-  publisher = {ACM New York, NY, USA},
-  timestamp = {2020-06-14T12:11:19.000+0200},
-  title = {A snapshot of the frontiers of fairness in machine learning},
-  volume = 63,
-  year = 2020
+ added-at = {2020-06-14T12:11:19.000+0200},
+ author = {Chouldechova, Alexandra and Roth, Aaron},
+ journal = {Communications of the ACM},
+ number = {5},
+ pages = {82--89},
+ title = {A snapshot of the frontiers of fairness in machine learning},
+ volume = {63},
+ year = {2020}
 }
 
-
 @inproceedings{pino2019harnessing,
- author = {Pino, Juan and Puzon, Liezl and Gu, Jiatao and Ma, Xutai and McCarthy, Arya D and Gopinath, Deepak},
- booktitle = {Proc. of IWSLT},
- title = {Harnessing indirect training data for end-to-end automatic speech translation: Tricks of the trade},
+ author = {Pino, Juan  and
+Puzon, Liezl  and
+Gu, Jiatao  and
+Ma, Xutai  and
+McCarthy, Arya D.  and
+Gopinath, Deepak},
+ booktitle = {Proceedings of the 16th International Conference on Spoken Language Translation},
+ title = {Harnessing Indirect Training Data for End-to-End Automatic Speech Translation: Tricks of the Trade},
  year = {2019}
 }
 
 @inproceedings{pino2020self,
- author = {Juan Pino and Qiantong Xu and Xutai Ma and Mohammad Javad Dousti and Yun Tang},
- booktitle = {{Proc. of INTERSPEECH}},
+ author = {Juan Miguel Pino and
+Qiantong Xu and
+Xutai Ma and
+Mohammad Javad Dousti and
+Yun Tang},
+ booktitle = {Proc. of INTERSPEECH},
+ editor = {Helen Meng and
+Bo Xu and
+Thomas Fang Zheng},
  pages = {1476--1480},
  title = {Self-Training for End-to-End Speech Translation},
  year = {2020}
@@ -1110,9 +1166,12 @@ Waibel, Alex},
 }
 
 @inproceedings{sperber2017robust,
- author = {Sperber, Matthias and Niehues, Jan and Waibel, Alex},
- booktitle = {Proc. of IWSLT},
- title = {Toward robust neural machine translation for noisy input sequences},
+ author = {Sperber, Matthias  and
+Niehues, Jan  and
+Waibel, Alex},
+ booktitle = {Proceedings of the 14th International Conference on Spoken Language Translation},
+ pages = {90--96},
+ title = {Toward Robust Neural Machine Translation for Noisy Input Sequences},
  year = {2017}
 }
 
@@ -1336,8 +1395,13 @@ Yang, Zhenglu},
 }
 
 @inproceedings{weiss2017sequence,
- author = {Ron J. Weiss and Jan Chorowski and Navdeep Jaitly and Yonghui Wu and Zhifeng Chen},
- booktitle = {{Proc. of INTERSPEECH}},
+ author = {Ron J. Weiss and
+Jan Chorowski and
+Navdeep Jaitly and
+Yonghui Wu and
+Zhifeng Chen},
+ booktitle = {Proc. of INTERSPEECH},
+ editor = {Francisco Lacerda},
  pages = {2625--2629},
  title = {Sequence-to-Sequence Models Can Directly Translate Foreign Speech},
  year = {2017}
@@ -1404,11 +1468,16 @@ Roman Garnett},
  year = {2019}
 }
 
-@article{yi2019ectc,
- author = {Yi, Cheng and Wang, Feng and Xu, Bo},
- journal = {Proc. of INTERSPEECH},
+@inproceedings{yi2019ectc,
+ author = {Cheng Yi and
+Feng Wang and
+Bo Xu},
+ booktitle = {Proc. of INTERSPEECH},
+ editor = {Gernot Kubin and
+Zdravko Kacic},
  pages = {4420--4424},
- title = {ECTC-DOCD: An End-to-end Structure with CTC Encoder and OCD Decoder for Speech Recognition},
+ title = {Ectc-Docd: An End-to-End Structure with {CTC} Encoder and {OCD} Decoder
+for Speech Recognition},
  year = {2019}
 }
 
@@ -1466,9 +1535,15 @@ Sennrich, Rico},
 }
 
 @inproceedings{zhou2018syllable,
- author = {Zhou, Shiyu and Dong, Linhao and Xu, Shuang and Xu, Bo},
+ author = {Shiyu Zhou and
+Linhao Dong and
+Shuang Xu and
+Bo Xu},
  booktitle = {Proc. of INTERSPEECH},
- title = {Syllable-based sequence-to-sequence speech recognition with the transformer in mandarin chinese},
+ editor = {B. Yegnanarayana},
+ pages = {791--795},
+ title = {Syllable-Based Sequence-to-Sequence Speech Recognition with the Transformer
+in Mandarin Chinese},
  year = {2018}
 }
 
@@ -1496,9 +1571,17 @@ Liu, Jingjing},
 }
 
 @inproceedings{chuang2020speechbert,
- author = {Chuang, Yung-Sung and Liu, Chi-Liang and Lee, Hung-Yi},
+ author = {Yung{-}Sung Chuang and
+Chi{-}Liang Liu and
+Hung{-}yi Lee and
+Lin{-}Shan Lee},
  booktitle = {Proc. of INTERSPEECH},
- title = {{SpeechBERT}: An Audio-and-text Jointly Learned Language Model for End-to-end Spoken Question Answering},
+ editor = {Helen Meng and
+Bo Xu and
+Thomas Fang Zheng},
+ pages = {4168--4172},
+ title = {SpeechBERT: An Audio-and-Text Jointly Learned Language Model for End-to-End
+Spoken Question Answering},
  year = {2020}
 }
 
@@ -1910,12 +1993,12 @@ Li, Lei},
  year = {2021}
 }
 
-@inproceedings{liang2021finding,
- author = {Jianze Liang and Chengqi Zhao and Mingxuan Wang and Xipeng Qiu and Lei Li},
- journal = {ArXiv preprint},
- title = {Finding Sparse Structure for Domain Specific Neural Machine Translation},
- volume = {abs/2012.10586},
- year = {2020}
+@InProceedings{liang2020finding,
+  author  = {Jianze Liang and Chengqi Zhao and Mingxuan Wang and Xipeng Qiu and Lei Li},
+  title   = {Finding Sparse Structure for Domain Specific Neural Machine Translation},
+  year    = {2020},
+  volume  = {abs/2012.10586},
+  journal = {ArXiv preprint},
 }
 
 @inproceedings{wu2020volctrans,
@@ -2131,20 +2214,24 @@ Roman Garnett},
 }
 
 @inproceedings{wang2019towards,
- author = {Wang, Mingxuan},
+ author = {Wang, Mingxuan  and
+Xie, Jun  and
+Tan, Zhixing  and
+Su, Jinsong  and
+Xiong, Deyi  and
+Li, Lei},
  booktitle = {Proc. of EMNLP},
  pages = {803--812},
  title = {Towards Linear Time Neural Machine Translation with Capsule Networks},
  year = {2019}
 }
 
-@inproceedings{potapczyk2020srpol,
- author = {Potapczyk, Tomasz  and
-Przybysz, Pawel},
- booktitle = {Proceedings of the 17th International Conference on Spoken Language Translation},
- pages = {89--94},
- title = {{SRPOL}{'}s System for the {IWSLT} 2020 End-to-End Speech Translation Task},
- year = {2020}
+@InProceedings{potapczyk2020srpols,
+  author    = {Potapczyk, Tomasz and Przybysz, Pawel},
+  booktitle = {Proceedings of the 17th International Conference on Spoken Language Translation},
+  title     = {{SRPOL}{'}s System for the {IWSLT} 2020 End-to-End Speech Translation Task},
+  year      = {2020},
+  pages     = {89--94},
 }
 
 @inproceedings{ansari2020findings,
@@ -2536,10 +2623,12 @@ Li, Victor O.K.},
 }
 
 @inproceedings{ha2017effective,
- author = {Thanh{-}Le Ha and Jan Niehues and Alexander H. Waibel},
- journal = {ArXiv preprint},
+ author = {Ha, Thanh-Le  and
+Niehues, Jan  and
+Waibel, Alexander},
+ booktitle = {Proceedings of the 14th International Conference on Spoken Language Translation},
+ pages = {105--112},
  title = {Effective Strategies in Zero-Shot Neural Machine Translation},
- volume = {abs/1711.07893},
  year = {2017}
 }
 
@@ -2722,13 +2811,13 @@ Michael Auli},
  year = {2016}
 }
 
-@article{kano2018structured,
- archiveprefix = {arXiv},
- author = {Takatomo Kano and Sakriani Sakti and Satoshi Nakamura},
- eprint = {1802.06003},
- primaryclass = {cs.CL},
- title = {Structured-based Curriculum Learning for End-to-end English-Japanese Speech Translation},
- year = {2018}
+@InProceedings{kano2017structureda,
+  author    = {Takatomo Kano and Sakriani Sakti and Satoshi Nakamura},
+  booktitle = {Proc. of INTERSPEECH},
+  title     = {Structured-Based Curriculum Learning for End-to-End English-Japanese Speech Translation},
+  year      = {2017},
+  editor    = {Francisco Lacerda},
+  pages     = {2630--2634},
 }
 
 @inproceedings{kudo2018sentencepiece,
@@ -2756,9 +2845,17 @@ Zettlemoyer, Luke},
 }
 
 @inproceedings{nguyen2020investigating,
- author = {Nguyen, Ha and Bougares, Fethi and Tomashenko, Natalia and Est{\`e}ve, Yannick and Besacier, Laurent},
+ author = {Ha Nguyen and
+Fethi Bougares and
+Natalia A. Tomashenko and
+Yannick Est{\`{e}}ve and
+Laurent Besacier},
  booktitle = {Proc. of INTERSPEECH},
- title = {Investigating Self-supervised Pre-training for End-to-end Speech Translation},
+ editor = {Helen Meng and
+Bo Xu and
+Thomas Fang Zheng},
+ pages = {1466--1470},
+ title = {Investigating Self-Supervised Pre-Training for End-to-End Speech Translation},
  year = {2020}
 }
 
@@ -2775,18 +2872,31 @@ April 19-24, 2015},
  year = {2015}
 }
 
-@article{pino2020selfa,
- author = {Pino, Juan and Xu, Qiantong and Ma, Xutai and Dousti, Mohammad Javad and Tang, Yun},
- journal = {Proc. of INTERSPEECH},
+@inproceedings{pino2020selfa,
+ author = {Juan Miguel Pino and
+Qiantong Xu and
+Xutai Ma and
+Mohammad Javad Dousti and
+Yun Tang},
+ booktitle = {Proc. of INTERSPEECH},
+ editor = {Helen Meng and
+Bo Xu and
+Thomas Fang Zheng},
  pages = {1476--1480},
  title = {Self-Training for End-to-End Speech Translation},
  year = {2020}
 }
 
 @inproceedings{schneider2019wav2vec,
- author = {Schneider, Steffen and Baevski, Alexei and Collobert, Ronan and Auli, Michael},
+ author = {Steffen Schneider and
+Alexei Baevski and
+Ronan Collobert and
+Michael Auli},
  booktitle = {Proc. of INTERSPEECH},
- title = {wav2vec: Unsupervised Pre-Training for Speech Recognition.},
+ editor = {Gernot Kubin and
+Zdravko Kacic},
+ pages = {3465--3469},
+ title = {wav2vec: Unsupervised Pre-Training for Speech Recognition},
  year = {2019}
 }
 
@@ -2826,9 +2936,16 @@ Unlabeled Data},
 }
 
 @inproceedings{wu2020self,
- author = {Wu, Anne and Wang, Changhan and Pino, Juan and Gu, Jiatao},
+ author = {Anne Wu and
+Changhan Wang and
+Juan Miguel Pino and
+Jiatao Gu},
  booktitle = {Proc. of INTERSPEECH},
- title = {Self-supervised representations improve end-to-end speech translation},
+ editor = {Helen Meng and
+Bo Xu and
+Thomas Fang Zheng},
+ pages = {1491--1495},
+ title = {Self-Supervised Representations Improve End-to-End Speech Translation},
  year = {2020}
 }
 
@@ -3545,20 +3662,12 @@ Andreas Krause},
  year = {2018}
 }
 
-@inproceedings{shu2019latent,
- author = {Raphael Shu and
-Jason Lee and
-Hideki Nakayama and
-Kyunghyun Cho},
- booktitle = {The Thirty-Fourth {AAAI} Conference on Artificial Intelligence, {AAAI}
-2020, The Thirty-Second Innovative Applications of Artificial Intelligence
-Conference, {IAAI} 2020, The Tenth {AAAI} Symposium on Educational
-Advances in Artificial Intelligence, {EAAI} 2020, New York, NY, USA,
-February 7-12, 2020},
- pages = {8846--8853},
- title = {Latent-Variable Non-Autoregressive Neural Machine Translation with
-Deterministic Inference Using a Delta Posterior},
- year = {2020}
+@InProceedings{shu2020latenta,
+  author    = {Raphael Shu and Jason Lee and Hideki Nakayama and Kyunghyun Cho},
+  booktitle = {The Thirty-Fourth {AAAI} Conference on Artificial Intelligence, {AAAI} 2020, The Thirty-Second Innovative Applications of Artificial Intelligence Conference, {IAAI} 2020, The Tenth {AAAI} Symposium on Educational Advances in Artificial Intelligence, {EAAI} 2020, New York, NY, USA, February 7-12, 2020},
+  title     = {Latent-Variable Non-Autoregressive Neural Machine Translation with Deterministic Inference Using a Delta Posterior},
+  year      = {2020},
+  pages     = {8846--8853},
 }
 
 @inproceedings{ghazvininejad2019mask,
@@ -3893,10 +4002,18 @@ Deterministic Inference Using a Delta Posterior},
 }
 
 @inproceedings{ye2021end,
- author = {Rong Ye and Mingxuan Wang and Lei Li},
- journal = {ArXiv preprint},
- title = {End-to-end Speech Translation via Cross-modal Progressive Training},
- volume = {abs/2104.10380},
+ author = {Rong Ye and
+Mingxuan Wang and
+Lei Li},
+ booktitle = {Proc. of INTERSPEECH},
+ editor = {Hynek Hermansky and
+Honza Cernock{\'{y}} and
+Luk{\'{a}}s Burget and
+Lori Lamel and
+Odette Scharenborg and
+Petr Motl{\'{\i}}cek},
+ pages = {2267--2271},
+ title = {End-to-End Speech Translation via Cross-Modal Progressive Training},
  year = {2021}
 }
 
@@ -4605,11 +4722,18 @@ February 7-12, 2020},
  year = {2020}
 }
 
-@article{chen2021zero,
- author = {Chen, Guanhua and Ma, Shuming and Chen, Yun and Dong, Li and Zhang, Dongdong and Pan, Jia and Wang, Wenping and Wei, Furu},
- journal = {ArXiv preprint},
- title = {Zero-shot Cross-lingual Transfer of Neural Machine Translation with Multilingual Pretrained Encoders},
- volume = {abs/2104.08757},
+@inproceedings{chen2021zero,
+ author = {Chen, Guanhua  and
+Ma, Shuming  and
+Chen, Yun  and
+Dong, Li  and
+Zhang, Dongdong  and
+Pan, Jia  and
+Wang, Wenping  and
+Wei, Furu},
+ booktitle = {Proc. of EMNLP},
+ pages = {15--26},
+ title = {Zero-Shot Cross-Lingual Transfer of Neural Machine Translation with Multilingual Pretrained Encoders},
  year = {2021}
 }
 
@@ -4749,3 +4873,1843 @@ Jian Sun},
  year = {2016}
 }
 
+@Article{berard2016listenb,
+  author  = {B{\'e}rard, Alexandre and Pietquin, Olivier and Servan, Christophe and Besacier, Laurent},
+  journal = {ArXiv preprint},
+  title   = {Listen and translate: A proof of concept for end-to-end speech-to-text translation},
+  year    = {2016},
+  volume  = {abs/1612.01744},
+}
+
+@Article{sak2015fasta,
+  author  = {Sak, Ha{\c{s}}im and Senior, Andrew and Rao, Kanishka and Beaufays, Fran{\c{c}}oise},
+  journal = {ArXiv preprint},
+  title   = {Fast and accurate recurrent neural network acoustic models for speech recognition},
+  year    = {2015},
+  volume  = {abs/1507.06947},
+}
+
+@Article{inaguma2019multilinguala,
+  author  = {Inaguma, Hirofumi and Duh, Kevin and Kawahara, Tatsuya and Watanabe, Shinji},
+  journal = {ArXiv preprint},
+  title   = {Multilingual end-to-end speech translation},
+  year    = {2019},
+  volume  = {abs/1910.00254},
+}
+
+@inproceedings{ma2020simulmt,
+ author = {Ma, Xutai  and
+Pino, Juan  and
+Koehn, Philipp},
+ booktitle = {Proceedings of the 1st Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics and the 10th International Joint Conference on Natural Language Processing},
+ pages = {582--587},
+ title = {{S}imul{MT} to {S}imul{ST}: Adapting Simultaneous Text Translation to End-to-End Simultaneous Speech Translation},
+ year = {2020}
+}
+
+@inproceedings{dong2020cif,
+ author = {Linhao Dong and
+Bo Xu},
+ booktitle = {2020 {IEEE} International Conference on Acoustics, Speech and Signal
+Processing, {ICASSP} 2020, Barcelona, Spain, May 4-8, 2020},
+ pages = {6079--6083},
+ title = {{CIF:} Continuous Integrate-And-Fire for End-To-End Speech Recognition},
+ year = {2020}
+}
+
+@article{lapique1907recherches,
+ author = {Lapique, Louis},
+ journal = {Journal of Physiology and Pathololgy},
+ pages = {620--635},
+ title = {Recherches quantitatives sur l'excitation electrique des nerfs traitee comme une polarization.},
+ volume = {9},
+ year = {1907}
+}
+
+@Article{abbott1999lapicque’s,
+  author  = {Abbott, Larry F},
+  journal = {Brain research bulletin},
+  title   = {Lapicque’s introduction of the integrate-and-fire model neuron (1907)},
+  year    = {1999},
+  number  = {5-6},
+  pages   = {303--304},
+  volume  = {50},
+}
+
+@inproceedings{ren2020simulspeech,
+ author = {Ren, Yi  and
+Liu, Jinglin  and
+Tan, Xu  and
+Zhang, Chen  and
+Qin, Tao  and
+Zhao, Zhou  and
+Liu, Tie-Yan},
+ booktitle = {Proc. of ACL},
+ pages = {3787--3796},
+ title = {{S}imul{S}peech: End-to-End Simultaneous Speech to Text Translation},
+ year = {2020}
+}
+
+@inproceedings{ma2020simuleval,
+ author = {Ma, Xutai  and
+Dousti, Mohammad Javad  and
+Wang, Changhan  and
+Gu, Jiatao  and
+Pino, Juan},
+ booktitle = {Proc. of EMNLP},
+ pages = {144--150},
+ title = {{SIMULEVAL}: An Evaluation Toolkit for Simultaneous Translation},
+ year = {2020}
+}
+
+@article{cho2016can,
+ author = {Cho, Kyunghyun and Esipova, Masha},
+ journal = {ArXiv preprint},
+ title = {Can neural machine translation do simultaneous translation?},
+ volume = {abs/1606.02012},
+ year = {2016}
+}
+
+@article{ma2019stacl,
+ author = {Ma, Mingbo and Huang, Liang and Xiong, Hao and Liu, Kaibo and Zhang, Chuanqiang and He, Zhongjun and Liu, Hairong and Li, Xing and Wang, Haifeng},
+ booktitle = {Proc. of ACL},
+ pages = {3025--3036},
+ title = {Stacl: Simultaneous translation with integrated anticipation and controllable latency},
+ year = {2019}
+}
+
+@article{cherry2019thinking,
+ author = {Cherry, Colin and Foster, George},
+ journal = {ArXiv preprint},
+ title = {Thinking slow about latency evaluation for simultaneous machine translation},
+ volume = {abs/1906.00048},
+ year = {2019}
+}
+
+@article{san2021leveraging,
+ author = {San, Nay and Bartelds, Martijn and Browne, Mitchell and Clifford, Lily and Gibson, Fiona and Mansfield, John and Nash, David and Simpson, Jane and Turpin, Myfany and Vollmer, Maria and others},
+ journal = {ArXiv preprint},
+ title = {Leveraging neural representations for facilitating access to untranscribed speech from endangered languages},
+ volume = {abs/2103.14583},
+ year = {2021}
+}
+
+@article{chen2020mam,
+ author = {Chen, Junkun and Ma, Mingbo and Zheng, Renjie and Huang, Liang},
+ journal = {ArXiv preprint},
+ title = {MAM: Masked Acoustic Modeling for End-to-End Speech-to-Text Translation},
+ volume = {abs/2010.11445},
+ year = {2020}
+}
+
+@Article{ma2021streaminga,
+  author       = {Ma, Xutai and Wang, Yongqiang and Dousti, Mohammad Javad and Koehn, Philipp and Pino, Juan},
+  title        = {Streaming Simultaneous Speech Translation with Augmented Memory Transformer},
+  year         = {2021},
+  pages        = {7523--7527},
+  booktitle    = {ICASSP 2021-2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  organization = {IEEE},
+}
+
+@inproceedings{indurthi2020end,
+ author = {Sathish Reddy Indurthi and
+Houjeung Han and
+Nikhil Kumar Lakumarapu and
+Beomseok Lee and
+Insoo Chung and
+Sangha Kim and
+Chanwoo Kim},
+ booktitle = {2020 {IEEE} International Conference on Acoustics, Speech and Signal
+Processing, {ICASSP} 2020, Barcelona, Spain, May 4-8, 2020},
+ pages = {7904--7908},
+ title = {End-end Speech-to-Text Translation with Modality Agnostic Meta-Learning},
+ year = {2020}
+}
+
+@InProceedings{digangi2019data,
+  author    = {Di Gangi, Mattia A. and Negri, Matteo and Nguyen, Viet Nhat and Tebbifakhr, Amirhossein and Turchi, Marco},
+  booktitle = {Proceedings of the 16th International Conference on Spoken Language Translation},
+  title     = {Data Augmentation for End-to-End Speech Translation: {FBK}@{IWSLT} {`}19},
+  year      = {2019},
+}
+
+@inproceedings{mccarthy2020skinaugment,
+ author = {Arya D. McCarthy and
+Liezl Puzon and
+Juan Pino},
+ booktitle = {2020 {IEEE} International Conference on Acoustics, Speech and Signal
+Processing, {ICASSP} 2020, Barcelona, Spain, May 4-8, 2020},
+ pages = {7924--7928},
+ title = {SkinAugment: Auto-Encoding Speaker Conversions for Automatic Speech
+Translation},
+ year = {2020}
+}
+
+@inproceedings{liu2020synchronous,
+ author = {Yuchen Liu and
+Jiajun Zhang and
+Hao Xiong and
+Long Zhou and
+Zhongjun He and
+Hua Wu and
+Haifeng Wang and
+Chengqing Zong},
+ booktitle = {The Thirty-Fourth {AAAI} Conference on Artificial Intelligence, {AAAI}
+2020, The Thirty-Second Innovative Applications of Artificial Intelligence
+Conference, {IAAI} 2020, The Tenth {AAAI} Symposium on Educational
+Advances in Artificial Intelligence, {EAAI} 2020, New York, NY, USA,
+February 7-12, 2020},
+ pages = {8417--8424},
+ title = {Synchronous Speech Recognition and Speech-to-Text Translation with
+Interactive Decoding},
+ year = {2020}
+}
+
+@Article{fuegen2007simultaneous,
+  author  = {F{\"u}gen, Christian and Waibel, Alex and Kolss, Muntsin},
+  journal = {Machine translation},
+  title   = {Simultaneous translation of lectures and speeches},
+  year    = {2007},
+  number  = {4},
+  pages   = {209--252},
+  volume  = {21},
+}
+
+@inproceedings{oda2014optimizing,
+ author = {Oda, Yusuke  and
+Neubig, Graham  and
+Sakti, Sakriani  and
+Toda, Tomoki  and
+Nakamura, Satoshi},
+ booktitle = {Proc. of ACL},
+ pages = {551--556},
+ title = {Optimizing Segmentation Strategies for Simultaneous Speech Translation},
+ year = {2014}
+}
+
+@inproceedings{dalvi2018incremental,
+ author = {Dalvi, Fahim  and
+Durrani, Nadir  and
+Sajjad, Hassan  and
+Vogel, Stephan},
+ booktitle = {Proc. of NAACL-HLT},
+ pages = {493--499},
+ title = {Incremental Decoding and Training Methods for Simultaneous Translation in Neural Machine Translation},
+ year = {2018}
+}
+
+@inproceedings{ma2021streaming,
+ author = {Ma, Xutai and Wang, Yongqiang and Dousti, Mohammad Javad and Koehn, Philipp and Pino, Juan},
+ booktitle = {ICASSP 2021-2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+ organization = {IEEE},
+ pages = {7523--7527},
+ title = {Streaming Simultaneous Speech Translation with Augmented Memory Transformer},
+ year = {2021}
+}
+
+@inproceedings{wang2020fairseq,
+ author = {Wang, Changhan  and
+Tang, Yun  and
+Ma, Xutai  and
+Wu, Anne  and
+Okhonko, Dmytro  and
+Pino, Juan},
+ booktitle = {Proceedings of the 1st Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics and the 10th International Joint Conference on Natural Language Processing: System Demonstrations},
+ pages = {33--39},
+ title = {Fairseq {S}2{T}: Fast Speech-to-Text Modeling with Fairseq},
+ year = {2020}
+}
+
+@inproceedings{zheng2020fluent,
+ author = {Zheng, Renjie  and
+Ma, Mingbo  and
+Zheng, Baigong  and
+Liu, Kaibo  and
+Yuan, Jiahong  and
+Church, Kenneth  and
+Huang, Liang},
+ booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2020},
+ pages = {3928--3937},
+ title = {Fluent and Low-latency Simultaneous Speech-to-Speech Translation with Self-adaptive Training},
+ year = {2020}
+}
+
+@inproceedings{zheng2019simpler,
+ author = {Zheng, Baigong  and
+Zheng, Renjie  and
+Ma, Mingbo  and
+Huang, Liang},
+ booktitle = {Proc. of EMNLP},
+ pages = {1349--1354},
+ title = {Simpler and Faster Learning of Adaptive Policies for Simultaneous Translation},
+ year = {2019}
+}
+
+@inproceedings{zhang2020learning,
+ author = {Zhang, Ruiqing  and
+Zhang, Chuanqiang  and
+He, Zhongjun  and
+Wu, Hua  and
+Wang, Haifeng},
+ booktitle = {Proc. of EMNLP},
+ pages = {2280--2289},
+ title = {Learning Adaptive Segmentation Policy for Simultaneous Translation},
+ year = {2020}
+}
+
+@inproceedings{zhang2020dynamic,
+ author = {Zhang, Ruiqing  and
+Zhang, Chuanqiang},
+ booktitle = {Proceedings of the First Workshop on Automatic Simultaneous Translation},
+ pages = {1--9},
+ title = {Dynamic Sentence Boundary Detection for Simultaneous Translation},
+ year = {2020}
+}
+
+@inproceedings{elbayad2020efficient,
+ author = {Maha Elbayad and
+Laurent Besacier and
+Jakob Verbeek},
+ booktitle = {Proc. of INTERSPEECH},
+ editor = {Helen Meng and
+Bo Xu and
+Thomas Fang Zheng},
+ pages = {1461--1465},
+ title = {Efficient Wait-k Models for Simultaneous Machine Translation},
+ year = {2020}
+}
+
+@inproceedings{zheng2020opportunistic,
+ author = {Zheng, Renjie  and
+Ma, Mingbo  and
+Zheng, Baigong  and
+Liu, Kaibo  and
+Huang, Liang},
+ booktitle = {Proc. of ACL},
+ pages = {437--442},
+ title = {Opportunistic Decoding with Timely Correction for Simultaneous Translation},
+ year = {2020}
+}
+
+@InProceedings{arivazhagan2020rea,
+  author    = {Arivazhagan, Naveen and Cherry, Colin and Macherey, Wolfgang and Foster, George},
+  booktitle = {Proceedings of the 17th International Conference on Spoken Language Translation},
+  title     = {Re-translation versus Streaming for Simultaneous Translation},
+  year      = {2020},
+  pages     = {220--227},
+}
+
+@inproceedings{arivazhagan2020re,
+ author = {Naveen Arivazhagan and
+Colin Cherry and
+I Te and
+Wolfgang Macherey and
+Pallavi Baljekar and
+George F. Foster},
+ booktitle = {2020 {IEEE} International Conference on Acoustics, Speech and Signal
+Processing, {ICASSP} 2020, Barcelona, Spain, May 4-8, 2020},
+ pages = {7919--7923},
+ title = {Re-Translation Strategies for Long Form, Simultaneous, Spoken Language
+Translation},
+ year = {2020}
+}
+
+@inproceedings{arivazhagan2019monotonic,
+ author = {Arivazhagan, Naveen  and
+Cherry, Colin  and
+Macherey, Wolfgang  and
+Chiu, Chung-Cheng  and
+Yavuz, Semih  and
+Pang, Ruoming  and
+Li, Wei  and
+Raffel, Colin},
+ booktitle = {Proc. of ACL},
+ pages = {1313--1323},
+ title = {Monotonic Infinite Lookback Attention for Simultaneous Machine Translation},
+ year = {2019}
+}
+
+@InProceedings{ma2020monotonic,
+  author    = {Xutai Ma and Juan Miguel Pino and James Cross and Liezl Puzon and Jiatao Gu},
+  booktitle = {Proc. of ICLR},
+  title     = {Monotonic Multihead Attention},
+  year      = {2020},
+}
+
+@inproceedings{schneider2020towards,
+ author = {Schneider, Felix  and
+Waibel, Alexander},
+ booktitle = {Proceedings of the 17th International Conference on Spoken Language Translation},
+ pages = {228--236},
+ title = {Towards Stream Translation: Adaptive Computation Time for Simultaneous Machine Translation},
+ year = {2020}
+}
+
+@article{heller1999general,
+ author = {Heller, Peter Niels and Karp, Tanja and Nguyen, Truong Q},
+ journal = {IEEE Transactions on Signal Processing},
+ number = {4},
+ pages = {986--1002},
+ title = {A general formulation of modulated filter banks},
+ volume = {47},
+ year = {1999}
+}
+
+@inproceedings{pardede2019generalized,
+ author = {Pardede, Hilman F and Zilvan, Vicky and Krisnandi, Dikdik and Heryana, Ana and Kusumo, R Budiarianto S},
+ booktitle = {2019 International Conference on Computer, Control, Informatics and its Applications (IC3INA)},
+ organization = {IEEE},
+ pages = {19--24},
+ title = {Generalized Filter-bank Features for Robust Speech Recognition Against Reverberation},
+ year = {2019}
+}
+
+@InProceedings{zhang2021sparsifying,
+  author    = {Zhang, Biao and Titov, Ivan and Sennrich, Rico},
+  booktitle = {Findings of the Association for Computational Linguistics: ACL-IJCNLP 2021},
+  title     = {On Sparsifying Encoder Outputs in Sequence-to-Sequence Models},
+  year      = {2021},
+  pages     = {2888--2900},
+}
+
+@inproceedings{chen2021direct,
+ author = {Chen, Junkun  and
+Ma, Mingbo  and
+Zheng, Renjie  and
+Huang, Liang},
+ booktitle = {Findings of the Association for Computational Linguistics: ACL-IJCNLP 2021},
+ pages = {4618--4624},
+ title = {Direct Simultaneous Speech-to-Text Translation Assisted by Synchronized Streaming {ASR}},
+ year = {2021}
+}
+
+@InProceedings{le2021lightweight,
+  author    = {Le, Hang and Pino, Juan and Wang, Changhan and Gu, Jiatao and Schwab, Didier and Besacier, Laurent},
+  booktitle = {Proc. of ACL},
+  title     = {Lightweight Adapter Tuning for Multilingual Speech Translation},
+  year      = {2021},
+  pages     = {817--824},
+}
+
+@article{yi2021efficiently,
+ author = {Yi, Cheng and Zhou, Shiyu and Xu, Bo},
+ journal = {IEEE Signal Processing Letters},
+ pages = {788--792},
+ title = {Efficiently fusing pretrained acoustic and linguistic encoders for low-resource speech recognition},
+ volume = {28},
+ year = {2021}
+}
+
+@InProceedings{chen2021mtg,
+  author  = {Chen, Yiran and Song, Zhenqiao and Wu, Xianze and Wang, Danqing and Xu, Jingjing and Chen, Jiaze and Zhou, Hao and Li, Lei},
+  title   = {{MTG}: A Benchmark Suite for Multilingual Text Generation},
+  year    = {2021},
+  volume  = {abs/2108.07140},
+  journal = {ArXiv preprint},
+}
+
+@inproceedings{ye2022cross,
+ abstract = {How to learn similar representations for spoken utterances and their written text? We believe a unified and aligned representation of speech and text will lead to improvement in speech translation. To this end, we propose ConST, a cross-modal contrastive learning method for end-to-end speech-to-text translation. We evaluate ConST and a variety of previous baselines on multiple language directions (En-De/Fr/Ru) of a popular benchmark MuST-C. Experiments show that the proposed ConST consistently outperforms all previous methods, and achieves the state-of-the-art average BLEU of 28.5. The analysis further verifies that ConST indeed closes the representation gap of different modalities --- its learned representation improves the accuracy of cross-modal text retrieval from 4% to 88%.},
+ author = {Ye, Rong and Wang, Mingxuan and Li, Lei},
+ booktitle = {Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT)},
+ owner = {lilei.02},
+ title = {Cross-modal Contrastive Learning for Speech Translation},
+ year = {2022}
+}
+
+@inproceedings{zhao2022provably,
+ abstract = {Large language models are shown to memorize privacy information such as social security numbers in training data. Given the sheer scale of the training corpus, it is challenging to screen and filter these privacy data, either manually or automatically. In this paper, we propose Confidentially Redacted Training (CRT), a method to train language generation models while protecting the confidential segments. We borrow ideas from differential privacy (which solves a related but distinct problem) and show that our method is able to provably prevent unintended memorization by randomizing parts of the training process. Moreover, we show that redaction with an approximately correct screening policy amplifies the confidentiality guarantee. We implement the method for both LSTM and GPT language models. Our experimental results show that the models trained by CRT obtain almost the same perplexity while preserving strong confidentiality.},
+ author = {Zhao, Xuandong and Li, Lei and Wang, Yu-Xiang},
+ booktitle = {Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT)},
+ owner = {lilei.02},
+ title = {Provably Confidential Language Modelling},
+ year = {2022}
+}
+
+@inproceedings{li2022learning,
+ abstract = {Can a robot autonomously learn to design and construct a bridge from varying-sized blocks without a blueprint? It is a challenging task with long horizon and sparse reward – the robot has to figure out physically stable design schemes and feasible actions to manipulate and transport blocks. Due to diverse block sizes, the state space and action trajectories are vast to explore. In this paper, we propose a hierarchical approach for this problem. It consists of a reinforcement-learning designer to propose high-level building instructions and a motion-planning-based action generator to manipulate blocks at the low level. For high-level learning, we develop a novel technique, prioritized memory resetting (PMR) to improve exploration. PMR adaptively resets the state to those most critical configurations from a replay buffer so that the robot can resume training on partial architectures instead of from scratch. Furthermore, we augment PMR with auxiliary training objectives and fine-tune the designer with the locomotion generator. Our experiments in simulation and on a real deployed robotic system demonstrate that it is able to effectively construct bridges with blocks of varying sizes at a high success rate. Demos can be found at https://sites.google. com/view/bridge-pmr.},
+ author = {Yunfei Li and Tao Kong and Lei Li and Yi Wu},
+ booktitle = {{IEEE} International Conference on Robotics and Automation ({ICRA})},
+ code = {https://github.com/IrisLi17/bridge_construction},
+ thumbnail = {li2022bridge_robot.jpg},
+ title = {Learning Design and Construction with Varying-Sized Materials via Prioritized Memory Resets},
+ year = {2022}
+}
+
+@inproceedings{bao2022latent,
+ abstract = {Recently, parallel text generation has received widespread attention due to its success in generation efficiency. Although many advanced techniques are proposed to improve its generation quality, they still need the help of an autoregressive model for training to overcome the one-to-many multi-modal phenomenon in the dataset, limiting their applications. In this paper, we propose latent-GLAT, which employs the discrete latent variables to capture word categorical information and invoke an advanced curriculum learning technique, alleviating the multi-modality problem. Experiment results show that our method outperforms strong baselines without the help of an autoregressive model, which further broadens the application scenarios of the parallel decoding paradigm.},
+ author = {Yu Bao and Hao Zhou and Shujian Huang and Dongqi Wang and Lihua Qian and Xinyu Dai and Jiajun Chen and Lei Li},
+ booktitle = {the 60th Annual Meeting of the Association for Computational Linguistics (ACL)},
+ code = {https://github.com/baoy-nlp/Latent-GLAT},
+ eprint = {https://openreview.net/forum?id=y4xCe0MSoWx},
+ title = {latent-{GLAT}: Glancing at Latent Variables for Parallel Text Generation},
+ year = {2022}
+}
+
+@inproceedings{dong2022learning,
+ abstract = {How to find proper moments to generate partial sentence translation given a streaming speech input? Existing approaches waiting-and-translating for a fixed duration often break the acoustic units in speech, since the boundaries between acoustic units in speech are not even. In this paper, we propose MoSST, a simple yet effective method for translating streaming speech content. Given a usually long speech sequence, we develop an efficient monotonic segmentation module inside an encoder-decoder model to accumulate acoustic information incrementally and detect proper speech unit boundaries for the input in speech translation task. Experiments on multiple translation directions of the MuST-C dataset show that MoSST outperforms existing methods and achieves the best trade-off between translation quality (BLEU) and latency.},
+ author = {Qianqian Dong and Yaoming Zhu and Mingxuan Wang and Lei Li},
+ booktitle = {the 60th Annual Meeting of the Association for Computational Linguistics (ACL)},
+ code = {https://github.com/dqqcasia/mosst},
+ eprint = {https://openreview.net/forum?id=mBz73IzOI6},
+ title = {Learning When to Translate for Streaming Speech},
+ year = {2022}
+}
+
+@inproceedings{fang2022stemm,
+ abstract = {How to learn a better speech representation for end-to-end speech-to-text translation (ST) with limited labeled data? Existing techniques often attempt to transfer powerful machine translation (MT) capabilities to ST, but neglect the representation discrepancy across modalities. In this paper, we propose the Speech-TExt Manifold Mixup (STEMM) method to calibrate such discrepancy. Specifically, we mix up the representation sequences of different modalities, and take both unimodal speech sequences and multimodal mixed sequences as input to the translation model in parallel, and regularize their output predictions with a self-learning framework. Experiments on MuST- C speech translation benchmark and further analysis show that our method effectively alleviates the cross-modal representation discrepancy, and achieves significant improvements over a strong baseline on eight translation directions.},
+ author = {Qingkai Fang and Rong Ye and Lei Li and Yang Feng and Mingxuan Wang},
+ booktitle = {the 60th Annual Meeting of the Association for Computational Linguistics (ACL)},
+ code = {https://github.com/ictnlp/STEMM},
+ eprint = {https://openreview.net/forum?id=kazCgft9cCH},
+ title = {{STEMM}: Self-learning with Speech-text Manifold Mixup for Speech Translation},
+ year = {2022}
+}
+
+@inproceedings{fu2022contextual,
+ abstract = {How do masked language models (MLMs) such as BERT learn contextual representations? In this work, we analyze the learning dynamics of MLMs. We find that MLMs adopt sampled embeddings as anchors to estimate and inject contextual semantics to representations, which limits the efficiency and effectiveness of MLMs. To address these issues, we propose TACO, a simple yet effective representation learning approach to directly model global semantics. TACO extracts and aligns contextual semantics hidden in contextualized representations to encourage models to attend global semantics when generating contextualized representations. Experiments on the GLUE benchmark show that TACO achieves up to 5x speedup and up to 1.2 points average improvement over existing MLMs.},
+ author = {Zhiyi Fu and Wangchunshu Zhou and Jingjing Xu and Hao Zhou and Lei Li},
+ booktitle = {the 60th Annual Meeting of the Association for Computational Linguistics (ACL)},
+ code = {https:// github.com/FUZHIYI/TACO},
+ eprint = {https://openreview.net/forum?id=KWL_ElhUejN},
+ title = {Contextual Representation Learning beyond Masked Language Modeling},
+ year = {2022}
+}
+
+@inproceedings{chen2022e,
+ abstract = {The ability to recognize analogies is fundamental to human cognition. Existing benchmarks to test word analogy do not reveal the underneath process of analogical reasoning of neural models. Holding the belief that models capable of reasoning should be right for the right reasons, we propose a first-of-its- kind Explainable Knowledge-intensive Analogical Reasoning benchmark (E-KAR). Our benchmark consists of 1,655 (in Chinese) and 1,251 (in English) problems sourced from the Civil Service Exams, which require intensive background knowledge to solve. More importantly, we design a free-text explanation scheme to explain whether an analogy should be drawn, and manually annotate them for each and every question and candidate answer. Empirical results suggest that this benchmark is very challenging for some state-of-the-art models for both explanation generation and analogical question answering tasks, which invites further research in this area. Project page of E-KAR can be found at https:// ekar-leaderboard.github.io.},
+ author = {Jiangjie Chen and Rui Xu and Ziquan Fu and Wei Shi and Zhongqiao Li and Xinbo Zhang and Changzhi Sun and Lei Li and Yanghua Xiao and Hao Zhou},
+ booktitle = {the 60th Annual Meeting of the Association for Computational Linguistics (ACL) - Findings},
+ eprint = {https://openreview.net/forum?id=9kXOFRtrEj},
+ title = {{E-KAR}: A Benchmark for Rationalizing Natural Language Analogical Reasoning},
+ year = {2022}
+}
+
+@inproceedings{sun2022rethinking,
+ abstract = {This paper does not aim at introducing a novel model for document-level neural machine translation. Instead, we head back to the original Transformer model and hope to answer the following question: Is the capacity of current models strong enough for document-level translation? Interestingly, we observe that the original Transformer with appropriate training techniques can achieve strong results for document translation, even with a length of 2000 words. We evaluate this model and several recent approaches on nine document-level datasets and two sentence-level datasets across six languages. Experiments show that document-level Transformer models outperforms sentence-level ones and many previous methods in a comprehensive set of metrics, including BLEU, four lexical indices, three newly proposed assistant linguistic indicators, and human evaluation. Our new datasets and evaluation scripts are in https://github. com/sunzewei2715/Doc2Doc_NMT.},
+ author = {Zewei Sun and Mingxuan Wang and Hao Zhou and Chengqi Zhao and Shujian Huang and Jiajun Chen and Lei Li},
+ booktitle = {the 60th Annual Meeting of the Association for Computational Linguistics (ACL) - Findings},
+ code = {https://github. com/sunzewei2715/Doc2Doc_NMT},
+ eprint = {https://openreview.net/forum?id=sU9fYzNZ3xX},
+ title = {Rethinking Document-level Neural Machine Translation},
+ year = {2022}
+}
+
+@inproceedings{zhao2022compressing,
+ author = {Xuandong Zhao and Zhiguo Yu and Ming Wu and Lei Li},
+ booktitle = {the 60th Annual Meeting of the Association for Computational Linguistics (ACL) - Findings},
+ eprint = {https://openreview.net/forum?id=n3cvM4Phez9},
+ title = {Compressing Sentence Representation via Homomorphic Projective Distillation},
+ year = {2022}
+}
+
+@inproceedings{song2022switch,
+ abstract = {Multilingual machine translation aims to develop a single model for multiple language directions. However, existing multilingual models based on Transformer are limited in terms of both translation performance and inference speed. In this paper, we propose switch-GLAT, a non-autoregressive multilingual machine translation model with a code-switch decoder. It can generate contextual code- switched translations for a given source sentence, and perform code-switch back- translation, greatly boosting multilingual translation performance. In addition, its inference is highly efficient thanks to its parallel decoder. Experiments show that our proposed switch-GLAT outperform the multilingual Transformer with as much as 1.16 BLEU improvement and 6.6x faster decoding speed in inference.},
+ author = {Zhenqiao Song and Hao Zhou and Lihua Qian and Jingjing Xu and Shanbo Cheng and Mingxuan Wang and Lei Li},
+ booktitle = {International Conference on Learning Representations (ICLR)},
+ eprint = {https://openreview.net/forum?id=5HvpvYd68b},
+ owner = {lilei.02},
+ title = {{switch-GLAT}: Multilingual Parallel Machine Translation via Code-switch Decoder},
+ year = {2022}
+}
+
+@inproceedings{yang2022enhancing,
+ author = {Huiyun Yang and Huadong Chen and Hao Zhou and Lei Li},
+ booktitle = {International Conference on Learning Representations (ICLR)},
+ eprint = {https://openreview.net/forum?id=OjPmfr9GkVv},
+ owner = {lilei.02},
+ title = {Enhancing Cross-lingual Transfer by Manifold Mixup},
+ year = {2022}
+}
+
+@InProceedings{chen2020loren,
+  author  = {Jiangjie Chen and Qiaoben Bao and Changzhi Sun and Xinbo Zhang and Jiaze Chen and Hao Zhou and Yanghua Xiao and Lei Li},
+  title   = {{LOREN}: Logic-Regularized Reasoning for Interpretable Fact Verification},
+  year    = {2020},
+  volume  = {abs/2012.13577},
+  journal = {ArXiv preprint},
+}
+
+@InProceedings{chen2021unsupervised,
+  author  = {Jiangjie Chen and Chun Gan and Sijie Cheng and Hao Zhou and Yanghua Xiao and Lei Li},
+  title   = {Unsupervised Editing for Counterfactual Stories},
+  year    = {2021},
+  volume  = {abs/2112.05417},
+  journal = {ArXiv preprint},
+}
+
+@InProceedings{huang2021non,
+  author  = {Chenyang Huang and Hao Zhou and Osmar Zaiane and Lili Mou and Lei Li},
+  title   = {Non-Autoregressive Translation with Layer-Wise Prediction and Deep Supervision},
+  year    = {2021},
+  volume  = {abs/2110.07515},
+  journal = {ArXiv preprint},
+}
+
+@article{chu2021icm,
+ author = {Ruihang Chu and Yukang Chen and Tao Kong and Lu Qi and Lei Li},
+ journal = {ArXiv preprint},
+ title = {{ICM-3D}: Instantiated Category Modeling for 3D Instance Segmentation},
+ volume = {abs/2108.11771},
+ year = {2021}
+}
+
+@article{wang2021solo,
+ author = {Xinlong Wang and Rufeng Zhang and Chunhua Shen and Tao Kong and Lei Li},
+ journal = {ArXiv preprint},
+ title = {SOLO: A Simple Framework for Instance Segmentation},
+ volume = {abs/2106.15947},
+ year = {2021}
+}
+
+@inproceedings{zheng2021duplex,
+ author = {Zaixiang Zheng and Hao Zhou and Shujian Huang and Jiajun Chen and Jingjing Xu and Lei Li},
+ journal = {ArXiv preprint},
+ title = {Duplex Sequence-to-Sequence Learning for Reversible Machine Translation},
+ volume = {abs/2105.03458},
+ year = {2021}
+}
+
+@inproceedings{qian2021volctrans,
+ author = {Qian, Lihua  and
+Zhou, Yi  and
+Zheng, Zaixiang  and
+Zhu, Yaoming  and
+Lin, Zehui  and
+Feng, Jiangtao  and
+Cheng, Shanbo  and
+Li, Lei  and
+Wang, Mingxuan  and
+Zhou, Hao},
+ booktitle = {Proceedings of the Sixth Conference on Machine Translation},
+ pages = {187--196},
+ title = {The Volctrans {GLAT} System: Non-autoregressive Translation Meets {WMT}21},
+ year = {2021}
+}
+
+@inproceedings{jiang2021learning,
+ author = {Jiang, Qingnan  and
+Wang, Mingxuan  and
+Cao, Jun  and
+Cheng, Shanbo  and
+Huang, Shujian  and
+Li, Lei},
+ booktitle = {Proc. of EMNLP},
+ pages = {7280--7290},
+ title = {Learning Kernel-Smoothed Machine Translation with Retrieved Examples},
+ year = {2021}
+}
+
+@inproceedings{ru2021learning,
+ author = {Ru, Dongyu  and
+Sun, Changzhi  and
+Feng, Jiangtao  and
+Qiu, Lin  and
+Zhou, Hao  and
+Zhang, Weinan  and
+Yu, Yong  and
+Li, Lei},
+ booktitle = {Proc. of EMNLP},
+ pages = {1239--1250},
+ title = {Learning Logic Rules for Document-Level Relation Extraction},
+ year = {2021}
+}
+
+@inproceedings{zeng2021gradient,
+ author = {Zeng, Zhiyuan  and
+Chen, Jiaze  and
+Xu, Weiran  and
+Li, Lei},
+ booktitle = {Proc. of EMNLP},
+ pages = {4102--4108},
+ title = {Gradient-Based Adversarial Factual Consistency Evaluation for Abstractive Summarization},
+ year = {2021}
+}
+
+@inproceedings{sun2021multilingual,
+ author = {Sun, Zewei  and
+Wang, Mingxuan  and
+Li, Lei},
+ booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2021},
+ pages = {2735--2747},
+ title = {Multilingual Translation via Grafting Pre-trained Language Models},
+ year = {2021}
+}
+
+@inproceedings{wang2021secoco,
+ author = {Wang, Tao  and
+Zhao, Chengqi  and
+Wang, Mingxuan  and
+Li, Lei  and
+Li, Hang  and
+Xiong, Deyi},
+ booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2021},
+ pages = {4639--4644},
+ title = {Secoco: Self-Correcting Encoding for Neural Machine Translation},
+ year = {2021}
+}
+
+@inproceedings{wang2021cnewsum,
+ author = {Danqing Wang and Jiaze Chen and Xianze Wu and Hao Zhou and Lei Li},
+ journal = {ArXiv preprint},
+ title = {{CNewSum}: A Large-scale Chinese News Summarization Dataset with Human-annotated Adequacy and Deducibility Level},
+ volume = {abs/2110.10874},
+ year = {2021}
+}
+
+@inproceedings{li2021learning,
+ author = {Yunfei Li and Tao Kong and Lei Li and Yifeng Li and Yi Wu},
+ journal = {ArXiv preprint},
+ title = {Learning to Design and Construct Bridge without Blueprint},
+ volume = {abs/2108.02439},
+ year = {2021}
+}
+
+@inproceedings{li2021simultaneous,
+ author = {Yiming Li and Tao Kong and Ruihang Chu and Yifeng Li and Peng Wang and Lei Li},
+ journal = {ArXiv preprint},
+ title = {Simultaneous Semantic and Collision Learning for 6-DoF Grasp Pose Estimation},
+ volume = {abs/2108.02425},
+ year = {2021}
+}
+
+@inproceedings{shi2021follow,
+ author = {Wenxian Shi and Yuxuan Song and Hao Zhou and Bohan Li and Lei Li},
+ journal = {ArXiv preprint},
+ title = {Follow Your Path: a Progressive Method for Knowledge Distillation},
+ volume = {abs/2107.09305},
+ year = {2021}
+}
+
+@inproceedings{zhao2021volctrans,
+ author = {Zhao, Chengqi  and
+Liu, Zhicheng  and
+Tong, Jian  and
+Wang, Tao  and
+Wang, Mingxuan  and
+Ye, Rong  and
+Dong, Qianqian  and
+Cao, Jun  and
+Li, Lei},
+ booktitle = {Proceedings of the 18th International Conference on Spoken Language Translation (IWSLT 2021)},
+ pages = {64--74},
+ title = {The Volctrans Neural Speech Translation System for {IWSLT} 2021},
+ year = {2021}
+}
+
+@inproceedings{wang2021autocorrect,
+ author = {Wang, Tao  and
+Zhao, Chengqi  and
+Wang, Mingxuan  and
+Li, Lei  and
+Xiong, Deyi},
+ booktitle = {Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies: Industry Papers},
+ pages = {105--112},
+ title = {Autocorrect in the Process of Translation {---} Multi-task Learning Improves Dialogue Machine Translation},
+ year = {2021}
+}
+
+@inproceedings{chen2021scale,
+ author = {Yukang Chen and Yanwei Li and Tao Kong and Lu Qi and Ruihang Chu and Lei Li and Jiaya Jia},
+ journal = {ArXiv preprint},
+ title = {Scale-aware Automatic Augmentation for Object Detection},
+ volume = {abs/2103.17220},
+ year = {2021}
+}
+
+@inproceedings{jing2021locate,
+ author = {Ya Jing and Tao Kong and Wei Wang and Liang Wang and Lei Li and Tieniu Tan},
+ journal = {ArXiv preprint},
+ title = {Locate then Segment: A Strong Pipeline for Referring Image Segmentation},
+ volume = {abs/2103.16284},
+ year = {2021}
+}
+
+@InProceedings{sun2020sparse,
+  author  = {Peize Sun and Rufeng Zhang and Yi Jiang and Tao Kong and Chenfeng Xu and Wei Zhan and Masayoshi Tomizuka and Lei Li and Zehuan Yuan and Changhu Wang and Ping Luo},
+  title   = {Sparse {R-CNN}: End-to-End Object Detection with Learnable Proposals},
+  year    = {2020},
+  volume  = {abs/2011.12450},
+  journal = {ArXiv preprint},
+}
+
+@InProceedings{wang2020dense,
+  author  = {Xinlong Wang and Rufeng Zhang and Chunhua Shen and Tao Kong and Lei Li},
+  title   = {Dense Contrastive Learning for Self-Supervised Visual Pre-Training},
+  year    = {2020},
+  volume  = {abs/2011.09157},
+  journal = {ArXiv preprint},
+}
+
+@inproceedings{xie2021mars,
+ author = {Yutong Xie and
+Chence Shi and
+Hao Zhou and
+Yuwei Yang and
+Weinan Zhang and
+Yong Yu and
+Lei Li},
+ booktitle = {Proc. of ICLR},
+ title = {{MARS:} Markov Molecular Sampling for Multi-objective Drug Discovery},
+ year = {2021}
+}
+
+@InProceedings{wang2021enparenhancing,
+  author    = {Wang, Yijun and Sun, Changzhi and Wu, Yuanbin and Zhou, Hao and Li, Lei and Yan, Junchi},
+  booktitle = {Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics: Main Volume},
+  title     = {{ENPAR}:Enhancing Entity and Entity Pair Representations for Joint Entity Relation Extraction},
+  year      = {2021},
+  pages     = {2877--2887},
+}
+
+@patent{chen2021methoda,
+ author = {Chen, Yangyu and He, Yi and Li, Lei},
+ day = {20},
+ nationality = {US},
+ number = {16/981,240},
+ title = {Method and Device for determining geometric transformation relation for images},
+ year = {2021},
+ yearfiled = {2018}
+}
+
+@patent{he2021image,
+ author = {He, Yi and Li, Gen and Li, Lei},
+ comment = {图像处理方法、装置、电子设备及计算机可读存储介质(一种概率的图片哈希表达方法)},
+ day = {29},
+ dayfiled = {10},
+ nationality = {CN},
+ number = {201910498629.6},
+ title = {Image processing method and device},
+ year = {2021},
+ yearfiled = {2019}
+}
+
+@patent{huang2021target,
+ author = {Huang, Xunpeng and Liu, Zhengyang and Li, Lei},
+ comment = {目标对象的分类方法、装置和电子设备( 一种快速的近似二阶牛顿优化算法 )},
+ day = {20},
+ dayfiled = {17},
+ nationality = {CN},
+ number = {202010057296.6},
+ title = {Target Object Classification method and device},
+ year = {2021},
+ yearfiled = {2020}
+}
+
+@patent{li2021method,
+ assignee = {Beijing Bytedance Tech Co. Ltd},
+ author = {Li, Lei and Chen, Jiaze and Chen, Jiamin and Ma, Weiying and Hua, Lifeng},
+ comment = {用于处理文本的方法和装置},
+ day = {13},
+ dayfiled = {1},
+ nationality = {CN},
+ number = {201811455645.9},
+ owner = {lilei.02},
+ title = {Method and Device for generating information},
+ year = {2021},
+ yearfiled = {2019}
+}
+
+@inproceedings{song2021triangular,
+ author = {Zhenqiao Song and Jiaze Chen and Hao Zhou and Lei Li},
+ journal = {ArXiv preprint},
+ title = {Triangular Bidword Generation for Sponsored Search Auction},
+ volume = {abs/2101.11349},
+ year = {2021}
+}
+
+@patent{she2021method,
+ author = {She, Heng and Wang, Yang and Guo, Yinuo and Zhang, Huiru and Li, Yitan and Li, Lei and Li, Hang},
+ comment = {用于推送信息的方法和装置},
+ day = {19},
+ dayfiled = {18},
+ nationality = {CN},
+ number = {201811562666.0},
+ title = {Method and Device for Push-Notifying Information},
+ year = {2021},
+ yearfiled = {2018}
+}
+
+@InProceedings{huang2020acmo,
+  author  = {Xunpeng Huang and Runxin Xu and Hao Zhou and Zhe Wang and Zhengyang Liu and Lei Li},
+  title   = {ACMo: Angle-Calibrated Moment Methods for Stochastic Optimization},
+  year    = {2020},
+  volume  = {abs/2006.07065},
+  journal = {ArXiv preprint},
+}
+
+@InProceedings{wu2020textgail,
+  author  = {Qingyang Wu and Lei Li and Zhou Yu},
+  title   = {{TextGAIL}: Generative Adversarial Imitation Learning for Text Generation},
+  year    = {2020},
+  volume  = {abs/2004.13796},
+  journal = {ArXiv preprint},
+}
+
+@inproceedings{zhang2021taxonomy,
+ author = {Jieyu Zhang and Xiangchen Song and Ying Zeng and Jiaze Chen and Jiaming Shen and Yuning Mao and Lei Li},
+ journal = {ArXiv preprint},
+ title = {Taxonomy Completion via Triplet Matching Network},
+ volume = {abs/2101.01896},
+ year = {2021}
+}
+
+@patent{chen2021method,
+ author = {Chen, Jiaze and Li, Lei and Zeng, Ying and Ma, Weiying},
+ comment = {生成物品描述信息的方法和装置},
+ day = {29},
+ dayfiled = {2},
+ nationality = {CN},
+ number = {201811457980.2},
+ title = {Method and Device for generation product description information},
+ year = {2021},
+ yearfiled = {2018}
+}
+
+@patent{deng2021method,
+ assignee = {Beijing Bytedance Network Tech Co. Ltd},
+ author = {Deng, Jiangdong and Li, Lei and Ma, Weiying},
+ comment = {股票的筛选方法及装置、计算机设备及可读存储介质},
+ day = {1},
+ dayfiled = {10},
+ nationality = {CN},
+ number = {201810910344.4},
+ owner = {lilei.02},
+ title = {Method and device for stock selection},
+ year = {2021},
+ yearfiled = {2018}
+}
+
+@patent{he2021duplicate,
+ assignee = {Beijing Bytedance Network Tech Co.},
+ author = {He, Yi and Yang, Cheng and Li, Gen and Li, Yitan and Li, Lei},
+ comment = {一种重复视频的判断方法及装置},
+ day = {19},
+ dayfiled = {29},
+ nationality = {China},
+ number = {201810273706.3},
+ owner = {lilei.02},
+ title = {Duplicate video detection method and device},
+ year = {2021},
+ yearfiled = {2018}
+}
+
+@inproceedings{wang2020solov2,
+ author = {Xinlong Wang and
+Rufeng Zhang and
+Tao Kong and
+Lei Li and
+Chunhua Shen},
+ booktitle = {Advances in Neural Information Processing Systems 33: Annual Conference
+on Neural Information Processing Systems 2020, NeurIPS 2020, December
+6-12, 2020, virtual},
+ editor = {Hugo Larochelle and
+Marc'Aurelio Ranzato and
+Raia Hadsell and
+Maria{-}Florina Balcan and
+Hsuan{-}Tien Lin},
+ title = {SOLOv2: Dynamic and Fast Instance Segmentation},
+ year = {2020}
+}
+
+@patent{deng2020sentiment,
+ author = {Jiangdong Deng and Lei Li and Weiying Ma},
+ comment = {舆情指数的预测方法及装置、计算机设备和可读存储介质},
+ day = {18},
+ dayfiled = {10},
+ nationality = {China},
+ number = {201810909879.X},
+ owner = {lilei.02},
+ title = {Sentiment Prediction Method and Device},
+ type = {patent},
+ year = {2020},
+ yearfiled = {2018}
+}
+
+@InProceedings{wang2019solo,
+  author  = {Xinlong Wang and Tao Kong and Chunhua Shen and Yuning Jiang and Lei Li},
+  title   = {{SOLO}: {S}egmenting {O}bjects by {L}ocations},
+  year    = {2019},
+  volume  = {abs/1912.04488},
+  journal = {ArXiv preprint},
+}
+
+@inproceedings{ru2020quachie,
+ author = {Dongyu Ru and
+Zhenghui Wang and
+Lin Qiu and
+Hao Zhou and
+Lei Li and
+Weinan Zhang and
+Yong Yu},
+ booktitle = {Proc. of SIGIR},
+ editor = {Jimmy Huang and
+Yi Chang and
+Xueqi Cheng and
+Jaap Kamps and
+Vanessa Murdock and
+Ji{-}Rong Wen and
+Yiqun Liu},
+ pages = {2177--2180},
+ title = {QuAChIE: Question Answering based Chinese Information Extraction System},
+ year = {2020}
+}
+
+@inproceedings{hua2020xref,
+ abstract = {Automatic identification of mentioned entities in social media posts facilitates quick digestion of trending topics and popular opinions. Nonetheless, this remains a challenging task due to limited context and diverse name variations. In this paper, we study the problem of entity linking for Chinese news comments given mentions’ spans. We hypothesize that comments often refer to entities in the corresponding news article, as well as topics involving the entities. We therefore propose a novel model, XREF, that leverages attention mechanisms to (1) pinpoint relevant context within comments, and (2) detect supporting entities from the news article. To improve training, we make two contributions: (a) we propose a supervised attention loss in addition to the standard cross entropy, and (b) we develop a weakly supervised training scheme to utilize the large-scale unlabeled corpus. Two new datasets in entertainment and product domains are collected and annotated for experiments. Our proposed method outperforms previous methods on both datasets.},
+ author = {Xinyu Hua and Lei Li and Lifeng Hua and Lu Wang},
+ booktitle = {Automated Knowledge Base Construction (AKBC)},
+ title = {{XREF}: Entity Linking for {Chinese} News Comments with Supplementary Article Reference},
+ year = {2020}
+}
+
+@Article{kong2019foveabox,
+  author  = {Tao {Kong} and Fuchun {Sun} and Huaping {Liu} and Yuning {Jiang} and Lei {Li} and Jianbo {Shi}},
+  journal = {ArXiv preprint},
+  title   = {{FoveaBox}: Beyound Anchor-based Object Detection},
+  year    = {2019},
+  volume  = {abs/1904.03797},
+}
+
+@article{wu2020towards,
+ author = {Wu, Fei and Lu, Cewu and Zhu, Mingjie and Chen, Hao and Zhu, Jun and Yu, Kai and Li, Lei and Li, Ming and Chen, Qianfeng and Li, Xi and Cao, Xudong and Wang, Zhongyuan and Zha, Zhengjun and Zhuang, Yueting and Pan, Yunhe},
+ eprint = {https://rdcu.be/b5vk7},
+ journal = {Nature Machine Intelligence},
+ pages = {312-316},
+ title = {Towards a new generation of artificial intelligence in {China}},
+ volume = {2},
+ year = {2020}
+}
+
+@patent{yu2020method,
+ assignee = {Beijing Bytedance Tech Co. Ltd},
+ author = {Yu, Linyun and Li, Lei and Yin, Haibin and Zhu, Wenjia and Jiang, Dong},
+ comment = {用于生成图像的方法和装置},
+ day = {28},
+ dayfiled = {26},
+ nationality = {CN},
+ number = {201810668219.7},
+ owner = {lilei.02},
+ title = {Method and Apparatus for generating image},
+ year = {2020},
+ yearfiled = {2018}
+}
+
+@patent{deng2020method,
+ assignee = {Beijing Bytedance Network Tech Co. Ltd},
+ author = {Deng, Jiangdong and Peng, Qu and Li, Lei and Ma, Weiying},
+ comment = {用于输出信息的方法和装置},
+ day = {27},
+ dayfiled = {4},
+ nationality = {CN},
+ number = {201811074033.5},
+ owner = {lilei.02},
+ title = {A method for outputing information},
+ year = {2020},
+ yearfiled = {2018}
+}
+
+@patent{li2020systems,
+ assignee = {Baidu USA LLC},
+ author = {Li, Lei and Dai, Zihang and Xu, Wei},
+ day = {31},
+ dayfiled = {23},
+ nationality = {US},
+ number = {US10606846B2},
+ owner = {lilei.02},
+ title = {Systems and methods for human inspired simple question answering (HISQA)},
+ year = {2020},
+ yearfiled = {2016}
+}
+
+@inproceedings{huang2020span,
+ author = {Xunpeng Huang and
+Xianfeng Liang and
+Zhengyang Liu and
+Lei Li and
+Yue Yu and
+Yitan Li},
+ booktitle = {The Thirty-Fourth {AAAI} Conference on Artificial Intelligence, {AAAI}
+2020, The Thirty-Second Innovative Applications of Artificial Intelligence
+Conference, {IAAI} 2020, The Tenth {AAAI} Symposium on Educational
+Advances in Artificial Intelligence, {EAAI} 2020, New York, NY, USA,
+February 7-12, 2020},
+ pages = {1520--1527},
+ title = {{SPAN:} {A} Stochastic Projected Approximate Newton Method},
+ year = {2020}
+}
+
+@inproceedings{wang2020task,
+ author = {Xinlong Wang and
+Wei Yin and
+Tao Kong and
+Yuning Jiang and
+Lei Li and
+Chunhua Shen},
+ booktitle = {The Thirty-Fourth {AAAI} Conference on Artificial Intelligence, {AAAI}
+2020, The Thirty-Second Innovative Applications of Artificial Intelligence
+Conference, {IAAI} 2020, The Tenth {AAAI} Symposium on Educational
+Advances in Artificial Intelligence, {EAAI} 2020, New York, NY, USA,
+February 7-12, 2020},
+ pages = {12257--12264},
+ title = {Task-Aware Monocular Depth Estimation for 3D Object Detection},
+ year = {2020}
+}
+
+@Patent{he2020method,
+  nationality = {CN},
+  number      = {201811060981.3},
+  year        = {2020},
+  yearfiled   = {2018},
+  assignee    = {Beijing Bytedance Network Tech Co. Ltd},
+  author      = {He, Yi and Li, Lei and Zong, Xianzi and Tang, Hao and Zheng, Guangguo},
+  day         = {4},
+  dayfiled    = {12},
+  title       = {Method and Device for searching information},
+  comment     = {用于搜索信息的方法和装置},
+  owner       = {lilei.02},
+}
+
+@patent{yu2020methoda,
+ assignee = {Beijing Bytedance Tech Co. Ltd},
+ author = {Yu, Linyun and Li, Lei and Yin, Haibin and Jiang, Dong},
+ comment = {用于生成图像的方法和装置},
+ day = {7},
+ dayfiled = {26},
+ nationality = {CN},
+ number = {201810669838.8},
+ owner = {lilei.02},
+ title = {Method and apparatus for generating image},
+ year = {2020},
+ yearfiled = {2018}
+}
+
+@inproceedings{zhao2019what,
+ author = {Zhichen Zhao and
+Lei Li and
+Bowen Zhang and
+Meng Wang and
+Yuning Jiang and
+Li Xu and
+Fengkun Wang and
+Wei{-}Ying Ma},
+ booktitle = {Proceedings of the 28th {ACM} International Conference on Information
+and Knowledge Management, {CIKM} 2019, Beijing, China, November 3-7,
+2019},
+ editor = {Wenwu Zhu and
+Dacheng Tao and
+Xueqi Cheng and
+Peng Cui and
+Elke A. Rundensteiner and
+David Carmel and
+Qi He and
+Jeffrey Xu Yu},
+ pages = {2605--2613},
+ title = {What You Look Matters?: Offline Evaluation of Advertising Creatives
+for Cold-start Problem},
+ year = {2019}
+}
+
+@patent{chen2019method,
+ assignee = {Beijing Bytedance Network Tech Co. Ltd},
+ author = {Chen, Yangyu and He, Yi and Li, Lei},
+ comment = {用于确定图像间的几何变换关系的方法和装置},
+ day = {12},
+ dayfiled = {12},
+ nationality = {CN},
+ number = {201811060837.X},
+ owner = {lilei.02},
+ title = {A method and apparatus for determining a geometric transformation relationship between images},
+ year = {2019},
+ yearfiled = {2018}
+}
+
+@inproceedings{jiang2019svd,
+ author = {Qing{-}Yuan Jiang and
+Yi He and
+Gen Li and
+Jian Lin and
+Lei Li and
+Wu{-}Jun Li},
+ booktitle = {2019 {IEEE/CVF} International Conference on Computer Vision, {ICCV}
+2019, Seoul, Korea (South), October 27 - November 2, 2019},
+ pages = {5280--5288},
+ title = {{SVD:} {A} Large-Scale Short Video Dataset for Near-Duplicate Video
+Retrieval},
+ year = {2019}
+}
+
+@inproceedings{fu2019rethinking,
+ author = {Fu, Yao  and
+Zhou, Hao  and
+Chen, Jiaze  and
+Li, Lei},
+ booktitle = {Proceedings of the 12th International Conference on Natural Language Generation},
+ pages = {24--33},
+ title = {Rethinking Text Attribute Transfer: A Lexical Analysis},
+ year = {2019}
+}
+
+@inproceedings{lu2019uncovering,
+ author = {Yunfei Lu and
+Linyun Yu and
+Peng Cui and
+Chengxi Zang and
+Renzhe Xu and
+Yihao Liu and
+Lei Li and
+Wenwu Zhu},
+ booktitle = {Proceedings of the 25th {ACM} {SIGKDD} International Conference on
+Knowledge Discovery {\&} Data Mining, {KDD} 2019, Anchorage, AK, USA,
+August 4-8, 2019},
+ editor = {Ankur Teredesai and
+Vipin Kumar and
+Ying Li and
+R{\'{o}}mer Rosales and
+Evimaria Terzi and
+George Karypis},
+ pages = {3093--3101},
+ title = {Uncovering the Co-driven Mechanism of Social and Content Links in
+User Churn Phenomena},
+ year = {2019}
+}
+
+@inproceedings{sun2019graspsnooker,
+ author = {Zhaoyue Sun and
+Jiaze Chen and
+Hao Zhou and
+Deyu Zhou and
+Lei Li and
+Mingmin Jiang},
+ booktitle = {Proceedings of the Twenty-Eighth International Joint Conference on
+Artificial Intelligence, {IJCAI} 2019, Macao, China, August 10-16,
+2019},
+ editor = {Sarit Kraus},
+ pages = {6569--6571},
+ title = {GraspSnooker: Automatic Chinese Commentary Generation for Snooker
+Videos},
+ year = {2019}
+}
+
+@patent{jiang2019construction,
+ assignee = {Beijing Bytedance Network Tech Co.},
+ author = {Jiang, Dong and Zhao, Yanbin and Hou, Shuang and Xia, Xuhong and Li, Lei and Hong, Dingkun},
+ comment = {一种语音分类模型的构建方法及装置},
+ day = {5},
+ dayfiled = {27},
+ nationality = {CN},
+ number = {201710388497.2},
+ owner = {lilei.02},
+ title = {Construction method and device of voice classification model.},
+ year = {2019},
+ yearfiled = {2017}
+}
+
+@inproceedings{cao2018brits,
+ author = {Wei Cao and
+Dong Wang and
+Jian Li and
+Hao Zhou and
+Lei Li and
+Yitan Li},
+ booktitle = {Advances in Neural Information Processing Systems 31: Annual Conference
+on Neural Information Processing Systems 2018, NeurIPS 2018, December
+3-8, 2018, Montr{\'{e}}al, Canada},
+ editor = {Samy Bengio and
+Hanna M. Wallach and
+Hugo Larochelle and
+Kristen Grauman and
+Nicol{\`{o}} Cesa{-}Bianchi and
+Roman Garnett},
+ pages = {6776--6786},
+ title = {{BRITS:} Bidirectional Recurrent Imputation for Time Series},
+ year = {2018}
+}
+
+@inproceedings{li2018overview,
+ author = {Lei Li and Xiaojun Wan},
+ booktitle = {Proc. of NLPCC},
+ title = {Overview of the NLPCC 2018 shared task: Single document summarization},
+ year = {2018}
+}
+
+@inproceedings{li2018jersey,
+ abstract = {It is still a challenging task to recognize the jersey number 
+of players on the court in soccer match videos, as the
+jersey numbers are very small in the object detection task
+and annotated data are not easy to collect. Based on the
+object detection results of all the players on the court, a
+CNN model is first introduced to classify these numbers on
+the deteced players’ images. To localize the jersey number
+more precisely without involving another digit detector and
+extra consumption, we then improve the former network to
+an end-to-end framework by fusing with the spatial transformer
+network (STN). To further improve the accuracy, we
+bring extra supervision to STN and upgrade the model to
+a semi-supervised multi-task learning system, by labeling a
+small portion of the number areas in the dataset by quadrangle.
+Extensive experiments illustrate the effectiveness of
+the proposed framework.},
+ author = {Li, Gen and Xu, Shikun and Liu, Xiang and Li, Lei and Wang, Changhu},
+ booktitle = {IEEE Conference on Computer Vision and Pattern Recognition workshops, Computer Vision in Sports},
+ entrysubtype = {workshop},
+ pages = {1864 --1871},
+ title = {Jersey Number Recognition with Semi-Supervised Spatial Transformer Network},
+ year = {2018}
+}
+
+@inproceedings{wu2018reinforced,
+ author = {Wu, Jiawei  and
+Li, Lei  and
+Wang, William Yang},
+ booktitle = {Proc. of NAACL-HLT},
+ pages = {1252--1262},
+ title = {Reinforced Co-Training},
+ year = {2018}
+}
+
+@inproceedings{erol2017nearly,
+ author = {Yusuf Bugra Erol and
+Yi Wu and
+Lei Li and
+Stuart J. Russell},
+ booktitle = {Proc. of AAAI},
+ editor = {Satinder P. Singh and
+Shaul Markovitch},
+ pages = {1861--1869},
+ title = {A Nearly-Black-Box Online Algorithm for Joint Parameter and State
+Estimation in Temporal Models},
+ year = {2017}
+}
+
+@article{matsubara2017non,
+ abstract = {The recent explosion in the adoption of search engines and new media such as blogs and Twitter have facilitated the faster propagation of news and rumors. How quickly does a piece of news spread over these media? How does its popularity diminish over time? Does the rising and falling pattern follow a simple universal law? In this paper, we propose SPIKEM, a concise yet flexible analytical model of the rise and fall patterns of information diffusion. Our model has the following advantages: (a) unification power: it explains earlier empirical observations and generalizes theoretical models including the SI and SIR models. We provide the threshold of the take-off vs. die-out conditions for SPIKEM, and discuss the generality of our model, by applying it to an arbitrary graph topology; (b) practicality: it matches the observed behavior of diverse sets of real data; (c) parsimony: it requires only a handful of parameters; and (d) usefulness: it makes it possible to perform analytic tasks such as forecasting, spotting anomalies, and interpretation by reverse engineering the system parameters of interest (e.g. quality of news, number of interested bloggers, etc.). We also introduce an efficient and effective algorithm for the real-time monitoring of information diffusion, namely, SPIKESTREAM, which identifies multiple diffusion patterns in a large collection of online event streams. Extensive experiments on real datasets demonstrate that SPIKEM accurately and succinctly describes all the patterns of the rise-and-fall spikes in social networks.},
+ author = {Matsubara, Yasuko and Sakurai, Yasushi and Prakash, B. Aditya and Li, Lei and Faloutsos, Christos},
+ comment = {The earlier version of the paper appeared in KDD'12. This version includes significant extension.},
+ journal = {ACM Transactions on the Web},
+ number = {1},
+ title = {Non-linear Dynamics of Information Diffusion in Social Networks},
+ volume = {11},
+ year = {2017}
+}
+
+@inproceedings{wu2016swift,
+ author = {Yi Wu and
+Lei Li and
+Stuart J. Russell and
+Rastislav Bod{\'{\i}}k},
+ booktitle = {Proceedings of the Twenty-Fifth International Joint Conference on
+Artificial Intelligence, {IJCAI} 2016, New York, NY, USA, 9-15 July
+2016},
+ editor = {Subbarao Kambhampati},
+ pages = {3637--3645},
+ title = {Swift: Compiled Inference for Probabilistic Programming Languages},
+ year = {2016}
+}
+
+@inproceedings{dai2016cfo,
+ author = {Dai, Zihang  and
+Li, Lei  and
+Xu, Wei},
+ booktitle = {Proc. of ACL},
+ pages = {800--810},
+ title = {{CFO}: Conditional Focused Neural Question Answering with Large-scale Knowledge Bases},
+ year = {2016}
+}
+
+@misc{lu2015twisted,
+ author = {Lu, Zefu and Li, Lei and Xu, Wei},
+ booktitle = {Bay Area Machine Learning Symposium},
+ owner = {leili},
+ title = {Twisted Recurrent Network for Named Entity Recognition},
+ year = {2015}
+}
+
+@misc{pham2015optimization,
+ author = {Pham, Hieu and Dai, Zihang and Li, Lei},
+ booktitle = {Bay Area Machine Learning Symposium},
+ owner = {leili},
+ title = {On Optimization Algorithms for Recurrent Networks with Long Short-Term Memory},
+ year = {2015}
+}
+
+@inproceedings{wu2014bfit,
+ abstract = {In recent years, several probabilistic programming languages (PPLs) have emerged, such as Bayesian Logic (BLOG), Church, and Figaro. These languages can be classified into two categories: PPLs interpreted using possible-world se- mantics and ones using random-evaluation semantics. In this paper, we explic- itly analyze the equivalence between these two semantics in the context of open- universe probability models (OUPMs). We propose a novel dynamic memoization technique to construct OUPMs using procedural instructions in random-evaluation based PPLs. We implemented a translator named BFiT, which converts code in BLOG (possible-world based) to Figaro (random-evaluation based). The trans- lated program in Figaro exhibits a merely constant blowup factor in program size while yielding the same inference results as the original model in BLOG.},
+ author = {Wu, Yi and Li, Lei and Russell, Stuart J.},
+ booktitle = {Neural Information Processing Systems, Probabilistic Programming workshop},
+ entrysubtype = {workshop},
+ file = {:pubs/wu2014bfit - BFiT_ From Possible-World Semantics to Random-Evaluation Semantics in Open Universe.pdf:PDF},
+ owner = {leili},
+ slides = {pubs/wu-2014-bfit-poster.pdf},
+ title = {{BFiT}: From Possible-World Semantics to Random-Evaluation Semantics in Open Universe},
+ year = {2014}
+}
+
+@inproceedings{du2014maxios,
+ abstract = {Nonnegative matrix factorization proved useful in many applications, including collaborative filtering – from existing ratings data one would like to predict new product ratings by users. However, factorizing a user-product score matrix is computation and memory intensive. We propose Maxios, a novel approach to fill missing values for large scale and highly sparse matrices efficiently and ac- curately. We formulate the matrix-completion problem as weighted nonnegative matrix factorization. In addition, we develop distributed update rules using alter- nating direction method of multipliers. We have implemented the Maxios system on top of Spark, a distributed in-memory computation framework. Experiments on commercial clusters show that Maxios is competitive in terms of scalability and accuracy against the existing solutions on a variety of datasets.},
+ author = {Du, Simon Shaolei and Liu, Yilin and Chen, Boyi and Li, Lei},
+ booktitle = {Neural Information Processing Systems, workshop on Distributed Machine Learning and Matrix Computations},
+ entrysubtype = {workshop},
+ file = {:pubs/du2014maxios - Maxios_ Large Scale Nonnegative Matrix Factorization for Collaborative Filtering.pdf:PDF},
+ owner = {leili},
+ slides = {pubs/du-2014-maxios-poster.pdf},
+ title = {Maxios: Large Scale Nonnegative Matrix Factorization for Collaborative Filtering},
+ year = {2014}
+}
+
+@inproceedings{juan2014poisson,
+ author = {Juan, Da-Cheng and Li, Lei and Peng, Huan-Kai and Marculescu, Diana and Faloutsos, Christos},
+ booktitle = {The Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD)},
+ file = {:pubs/juan2014poisson - Beyond Poisson_ Modeling Inter-Arrival Times of Requests in a Datacenter.pdf:PDF},
+ owner = {leili},
+ title = {Beyond {Poisson}: Modeling Inter-Arrival Times of Requests in a Datacenter},
+ year = {2014}
+}
+
+@inproceedings{li2013dynamic,
+ author = {Lei Li and
+Bharath Ramsundar and
+Stuart J. Russell},
+ booktitle = {Proceedings of the Sixteenth International Conference on Artificial
+Intelligence and Statistics, {AISTATS} 2013, Scottsdale, AZ, USA,
+April 29 - May 1, 2013},
+ pages = {397--405},
+ series = {{JMLR} Workshop and Conference Proceedings},
+ title = {Dynamic Scaled Sampling for Deterministic Constraints},
+ volume = {31},
+ year = {2013}
+}
+
+@inproceedings{vikram2013handwriting,
+ abstract = {Recent technologies in vision sensors are capable of capturing 3D finger positions and movements. We propose a novel way to control and interact with computers by moving fingers in the air. The positions of fingers are precisely captured by a computer vision device. By tracking the moving patterns of fingers, we can then recognize users’ intended control commands or input information. We demonstrate this human input approach through an example application of handwriting recognition. By treating the input as a time series of 3D positions, we propose a fast algorithm using dynamic time warping to recognize characters in online fashion. We employ various optimization techniques to recognize in real time as one writes. Experiments show promising recognition performance and speed.},
+ author = {Vikram, Sharad and Li, Lei and Russell, Stuart},
+ booktitle = {ACM Conference on Human Factors in Computing Systems (CHI) Extended Abstracts},
+ file = {:pubs/vikram2013handwriting - Handwriting and Gestures in the Air, Recognizing on the Fly.pdf:PDF},
+ owner = {leili},
+ title = {Handwriting and Gestures in the Air, Recognizing on the Fly},
+ year = {2013}
+}
+
+@inproceedings{liu2013hibernating,
+ author = {Liu, Siyuan and Li, Lei and Krishnan, Ramayya},
+ booktitle = {IEEE International Conference on Data Mining (ICDM)},
+ file = {:pubs/liu2013hibernating - Hibernating Process_ Modelling Mobile Calls at Multiple Scales.pdf:PDF},
+ owner = {leili},
+ title = {Hibernating Process: Modelling Mobile Calls at Multiple Scales},
+ year = {2013}
+}
+
+@inproceedings{erol2013extended,
+ author = {Yusuf Erol and
+Lei Li and
+Bharath Ramsundar and
+Stuart J. Russell},
+ booktitle = {Proc. of ICML},
+ pages = {1103--1111},
+ series = {{JMLR} Workshop and Conference Proceedings},
+ title = {The Extended Parameter Filter},
+ volume = {28},
+ year = {2013}
+}
+
+@inproceedings{fu2013why,
+ author = {Bin Fu and
+Jialiu Lin and
+Lei Li and
+Christos Faloutsos and
+Jason I. Hong and
+Norman M. Sadeh},
+ booktitle = {Proc. of KDD},
+ editor = {Inderjit S. Dhillon and
+Yehuda Koren and
+Rayid Ghani and
+Ted E. Senator and
+Paul Bradley and
+Rajesh Parekh and
+Jingrui He and
+Robert L. Grossman and
+Ramasamy Uthurusamy},
+ pages = {1276--1284},
+ title = {Why people hate your app: making sense of user feedback in a mobile
+app store},
+ year = {2013}
+}
+
+@inproceedings{rogers2013multilinear,
+ author = {Mark Rogers and
+Lei Li and
+Stuart J. Russell},
+ booktitle = {Advances in Neural Information Processing Systems 26: 27th Annual
+Conference on Neural Information Processing Systems 2013. Proceedings
+of a meeting held December 5-8, 2013, Lake Tahoe, Nevada, United States},
+ editor = {Christopher J. C. Burges and
+L{\'{e}}on Bottou and
+Zoubin Ghahramani and
+Kilian Q. Weinberger},
+ pages = {2634--2642},
+ title = {Multilinear Dynamical Systems for Tensor Time Series},
+ year = {2013}
+}
+
+@inproceedings{matsubara2013f,
+ author = {Matsubara, Yasuko and Li, Lei and Papalexakis, Evangelos E. and Lo, David and Sakurai, Yasushi and Faloutsos, Christos},
+ booktitle = {The Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD)},
+ file = {:pubs/matsubara-The Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD)13-ftrail.pdf:PDF},
+ pages = {86--98},
+ title = {{F-Trail}: Finding Patterns in Taxi Trajectories},
+ year = {2013}
+}
+
+@TechReport{li2013blog,
+  author   = {Li, Lei and Russell, Stuart J.},
+  title    = {The BLOG Language Reference},
+  year     = {2013},
+  number   = {UCB/EECS-2013-51},
+  abstract = {This document introduces the syntax of BLOG, a probabilistic programming language, for describing random variables and their probabilistic dependencies. BLOG defines probabilistic generative models over first-order structures. For example, all Bayesian networks can be easily described by BLOG. BLOG has the following features: (a) it employs open-universe semantics; (b) it can describe relational uncertainty; (c) it can handle identity uncertainty; and (d) it is empowered by first-order logic. The syntax as described in this document corresponds to BLOG version 0.6. The current version represents a significant redesign and extension to previous versions of BLOG, based on the principles of usability and implementation efficiency.},
+  file     = {:pubs/li2013blog - The BLOG Language Reference.pdf:PDF;Tech report:http\:/www.eecs.berkeley.edu/Pubs/TechRpts/2013/EECS-2013-51.html:URL},
+  school   = {EECS Department, University of California, Berkeley},
+}
+
+@inproceedings{henderson2012rolx,
+ author = {Henderson, Keith and Gallagher, Brian and Eliassi-Rad, Tina and Tong, Hanghang and Basu, Sugato and Akoglu, Leman and Koutra, Danai and Faloutsos, Christos and Li, Lei},
+ booktitle = {Proceeding of the 18th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD)},
+ file = {:pubs/henderson2012rolx - RolX_ Structural Role Extraction and Mining in Large Graphs.pdf:PDF},
+ owner = {leili},
+ title = {{RolX}: Structural Role Extraction and Mining in Large Graphs},
+ year = {2012}
+}
+
+@inproceedings{matsubara2012rise,
+ author = {Yasuko Matsubara and
+Yasushi Sakurai and
+B. Aditya Prakash and
+Lei Li and
+Christos Faloutsos},
+ booktitle = {Proc. of KDD},
+ editor = {Qiang Yang and
+Deepak Agarwal and
+Jian Pei},
+ pages = {6--14},
+ title = {Rise and fall patterns of information diffusion: model and implications},
+ year = {2012}
+}
+
+@inproceedings{liu2011mobile,
+ author = {Liu, Siyuan and Li, Lei and Faloutsos, Christos and Ni, Lionel},
+ booktitle = {IEEE International Conference on Data Mining, workshop on Data Mining Technologies for Computational Collective Intelligence},
+ entrysubtype = {workshop},
+ file = {:pubs/liu2011mobile - Mobile Phone Graph Evolution_ Findings, Model and Interpretation.pdf:PDF},
+ owner = {leili},
+ title = {Mobile Phone Graph Evolution: Findings, Model and Interpretation},
+ year = {2011}
+}
+
+@inproceedings{henderson2011its,
+ author = {Keith Henderson and
+Brian Gallagher and
+Lei Li and
+Leman Akoglu and
+Tina Eliassi{-}Rad and
+Hanghang Tong and
+Christos Faloutsos},
+ booktitle = {Proceedings of the 17th {ACM} {SIGKDD} International Conference on
+Knowledge Discovery and Data Mining, San Diego, CA, USA, August 21-24,
+2011},
+ editor = {Chid Apt{\'{e}} and
+Joydeep Ghosh and
+Padhraic Smyth},
+ pages = {663--671},
+ title = {It's who you know: graph mining using recursive structural features},
+ year = {2011}
+}
+
+@inproceedings{li2011thermocast,
+ author = {Lei Li and
+Chieh{-}Jan Mike Liang and
+Jie Liu and
+Suman Nath and
+Andreas Terzis and
+Christos Faloutsos},
+ booktitle = {Proceedings of the 17th {ACM} {SIGKDD} International Conference on
+Knowledge Discovery and Data Mining, San Diego, CA, USA, August 21-24,
+2011},
+ editor = {Chid Apt{\'{e}} and
+Joydeep Ghosh and
+Padhraic Smyth},
+ pages = {1370--1378},
+ title = {ThermoCast: a cyber-physical forecasting model for datacenters},
+ year = {2011}
+}
+
+@inproceedings{li2011time,
+ author = {Lei Li and
+B. Aditya Prakash},
+ booktitle = {Proc. of ICML},
+ editor = {Lise Getoor and
+Tobias Scheffer},
+ pages = {185--192},
+ title = {Time Series Clustering: Complex is Simpler!},
+ year = {2011}
+}
+
+@inproceedings{sakurai2011windmine,
+ author = {Yasushi Sakurai and
+Lei Li and
+Yasuko Matsubara and
+Christos Faloutsos},
+ booktitle = {Proceedings of the Eleventh {SIAM} International Conference on Data
+Mining, {SDM} 2011, April 28-30, 2011, Mesa, Arizona, {USA}},
+ pages = {759--770},
+ title = {WindMine: Fast and Effective Mining of Web-click Sequences},
+ year = {2011}
+}
+
+@phdthesis{li2011fast,
+ author = {Li, Lei},
+ howpublished = {Available as technical report CMU-CS-11-127},
+ owner = {leili},
+ school = {Carnegie Mellon University},
+ slides = {pubs/leili-talk2011-defense.pdf},
+ title = {Fast algorithms for mining co-evolving time series},
+ year = {2011}
+}
+
+@inproceedings{li2010fast,
+ author = {Li, Lei},
+ booktitle = {Proc. of ICDE},
+ entrysubtype = {workshop},
+ file = {:pubs/li2010fast - Fast Algorithms for Time Series Mining.pdf:PDF},
+ owner = {leili},
+ pages = {341--344},
+ slides = {pubs/li-icde10-slides.pdf},
+ title = {Fast Algorithms for Time Series Mining},
+ year = {2010}
+}
+
+@inproceedings{henderson2010metric,
+ author = {Keith Henderson and
+Tina Eliassi{-}Rad and
+Christos Faloutsos and
+Leman Akoglu and
+Lei Li and
+Koji Maruhashi and
+B. Aditya Prakash and
+Hanghang Tong},
+ booktitle = {Proceedings of the 16th {ACM} {SIGKDD} International Conference on
+Knowledge Discovery and Data Mining, Washington, DC, USA, July 25-28,
+2010},
+ editor = {Bharat Rao and
+Balaji Krishnapuram and
+Andrew Tomkins and
+Qiang Yang},
+ pages = {163--172},
+ title = {Metric forensics: a multi-level approach for mining volatile graphs},
+ year = {2010}
+}
+
+@InProceedings{li2010bolero,
+  author    = {Li, Lei and McCann, James and Pollard, Nancy and Faloutsos, Christos},
+  booktitle = {Proceedings of the 2010 ACM SIGGRAPH/Eurographics Symposium on Computer Animation (SCA)},
+  title     = {{BoLeRO}: a principled technique for including bone length constraints in motion capture occlusion filling},
+  year      = {2010},
+  address   = {Madrid, Spain},
+  pages     = {179--188},
+  series    = {SCA '10},
+  acmid     = {1921454},
+  file      = {:pubs/li2010bolero - BoLeRO_ a principled technique for including bone length constraints in motion capture occlusion filling.pdf:PDF;demo:pubs/BoLeRO-final-v1_xvid.avi:URL},
+  numpages  = {10},
+  owner     = {leili},
+  software  = {software/bolero-r349.zip},
+}
+
+@article{li2010efficient,
+ abstract = {Quad-core cpus have been a common desktop configuration for today’s office. The increasing number of processors on a single chip opens new opportunity for parallel computing. Our goal is to make use of the multi-core as well as multi-processor architectures to speed up large-scale data mining algorithms. In this paper, we present a general par- allel learning framework, Cut-And-Stitch, for training hidden Markov chain models. Particularly, we propose two model-specific variants, CAS-LDS for learning linear dynamical systems (LDS) and CAS-HMM for learning hidden Markov models (HMM). Our main contribution is a novel method to handle the data dependencies due to the chain structure of hidden variables, so as to parallelize the EM-based parameter learning algorithm. We imple- ment CAS-LDS and CAS-HMM using OpenMP on two supercomputers and a quad-core commercial desktop. The experimental results show that parallel algorithms using Cut-And-Stitch achieve comparable accuracy and almost linear speedups over the traditional serial version.},
+ author = {Li, Lei and Fu, Bin and Faloutsos, Christos},
+ comment = {This one is applying the idea from Cut-And-Stitch paper from linear dynamical system to hidden markov models. The extended version can be found in my thesis Chapter 6 and 7.},
+ file = {:pubs/li2010efficient - Efficient Parallel Learning of Hidden Markov Chain Models on SMPs.pdf:PDF},
+ journal = {IEICE Transactions on Information and Systems},
+ number = {6},
+ owner = {leili},
+ pages = {1330--1342},
+ title = {Efficient Parallel Learning of Hidden {Markov} chain Models on {SMP}s},
+ volume = {E93.D},
+ year = {2010}
+}
+
+@inproceedings{li2010parsimonious,
+ acmid = {1920893},
+ author = {Li, Lei and Prakash, B. Aditya and Faloutsos, Christos},
+ booktitle = {the Proceedings of the Very Large Data Bases Endowment (VLDB)},
+ file = {:pubs/li2010parsimonious - Parsimonious linear fingerprinting for time series.pdf:PDF},
+ issn = {2150-8097},
+ issue = {1-2},
+ issue_date = {September 2010},
+ numpages = {12},
+ owner = {leili},
+ pages = {385--396},
+ slides = {pubs/li-vldb10-plif-slides.pdf},
+ software = {software/plif-r345.zip},
+ title = {Parsimonious linear fingerprinting for time series},
+ volume = {3},
+ year = {2010}
+}
+
+@InProceedings{guo2009tailoring,
+  author       = {Guo, Fan and Li, Lei and Faloutsos, Christos},
+  booktitle    = {Proceedings of the 2009 workshop on Web Search Click Data},
+  title        = {Tailoring click models to user goals},
+  year         = {2009},
+  address      = {Barcelona, Spain},
+  pages        = {88--92},
+  series       = {WSCD '09},
+  acmid        = {1507523},
+  entrysubtype = {workshop},
+  isbn         = {978-1-60558-434-8},
+  keywords     = {click model, user behavior, web search},
+  numpages     = {5},
+}
+
+@patent{chen2009adaptive,
+ assignee = {Microsoft},
+ author = {Chen, Zheng and Li, Lei and Lin, Chenxi and Liu, Qiaoling and Wang, Jian and Zhang, Benyu},
+ day = {14},
+ dayfiled = {29},
+ nationality = {US},
+ number = {US 7,634,471},
+ owner = {lilei.02},
+ title = {Adaptive grouping in a file network},
+ year = {2009},
+ yearfiled = {2006}
+}
+
+@patent{chen2009system,
+ assignee = {Microsoft},
+ author = {Chen, Zheng and Li, Lei and Lin, Chenxi and Liu, Qiaoling and Wang, Jian and Zhang, Benyu},
+ day = {24},
+ dayfiled = {30},
+ nationality = {US},
+ number = {US 7,624,130},
+ owner = {lilei.02},
+ title = {System and method for exploring a semantic file network},
+ year = {2009},
+ yearfiled = {2006}
+}
+
+@patent{chen2009extracting,
+ assignee = {Microsoft},
+ author = {Chen, Zheng and Li, Lei and Lin, Chenxi and Liu, Qiaoling and Wang, Jian and Zhang, Benyu},
+ day = {10},
+ dayfiled = {30},
+ nationality = {US},
+ number = {US 7,502,785},
+ owner = {lilei.02},
+ title = {Extracting Semantic Attributes},
+ year = {2009},
+ yearfiled = {2006}
+}
+
+@inproceedings{xu2008inferring,
+ author = {Xu, Wanhong and Zhou, Xi and Li, Lei},
+ booktitle = {Proc. of ICDE},
+ entrysubtype = {workshop},
+ pages = {525--530},
+ title = {Inferring privacy information via social relations},
+ year = {2008}
+}
+
+@inproceedings{sakurai2008efficient,
+ author = {Sakurai, Yasushi and Chong, Rosalynn and Li, Lei and Faloutsos, Christos},
+ booktitle = {SIAM International Conference on Data Mining (SDM)},
+ ee = {http://www.siam.org/proceedings/datamining/2008/dm08_58_sakurai.pdf},
+ file = {:http\:/www.siam.org/proceedings/datamining/2008/dm08_58_sakurai.pdf:URL},
+ pages = {632--643},
+ title = {Efficient Distribution Mining and Classification},
+ year = {2008}
+}
+
+@inproceedings{li2008laziness,
+ author = {Li, Lei and McCann, James and Faloutsos, Christos and Pollard, Nancy},
+ booktitle = {The 29th Annual Conference of the European Association for Computer Graphics (EG), Short Paper Proceedings},
+ file = {:pubs/li2008laziness - Laziness is a virtue_ Motion stitching using effort minimization.pdf:PDF},
+ owner = {leili},
+ title = {Laziness is a virtue: Motion stitching using effort minimization},
+ year = {2008}
+}
+
+@inproceedings{guo2008c,
+ acmid = {1454214},
+ author = {Guo, Fan and Li, Lei and Faloutsos, Christos and Xing, Eric P.},
+ booktitle = {the Proceedings of the Very Large Data Bases Endowment (VLDB)},
+ file = {:pubs/guo2008c - C-DEM_ a multi-modal query system for Drosophila Embryo databases.pdf:PDF},
+ issn = {2150-8097},
+ issue = {2},
+ numpages = {4},
+ owner = {leili},
+ pages = {1508--1511},
+ title = {{C-DEM}: a Multi-modal Query System for Drosophila Embryo Databases},
+ volume = {1},
+ year = {2008}
+}
+
+@inproceedings{li2006providing,
+ author = {Li, Lei and Liu, Qiaoling and Tao, Yunfeng and Zhang, Lei and Zhou, Jian and Yu, Yong},
+ booktitle = {Asia-Pacific Web Conference},
+ file = {:pubs/li2006providing - Providing an Uncertainty Reasoning Service for Semantic Web Application.pdf:PDF},
+ pages = {628--639},
+ title = {Providing an Uncertainty Reasoning Service for Semantic Web Application},
+ year = {2006}
+}
+
+@Unpublished{bao2019pnat,
+  author  = {Yu Bao and Hao Zhou and Jiangtao Feng and Mingxuan Wang and Shujian Huang and Jiajun Chen and Lei Li},
+  title   = {{PNAT}: Non-autoregressive Transformer by Position Learning},
+  year    = {2019},
+  journal = {ArXiv preprint},
+  volume  = {abs/1911.10677},
+}
+
+@noshow{liPreprintbidirectional,
+ author = {Mingwei Li and Qingyuan Jiang and Yi He and Lei Li and Wujun Li},
+ title = {Bidirectional Attentive Convolutional Neural Network for Near-Duplicate Video Retrieval},
+ year = {Preprint}
+}
+
+@noshow{tianPreprintconversational,
+ author = {Youzhi Tian and Zhou Yu and Cheng Yang and Hang Li and Lei Li},
+ title = {Conversational Contextualized Multimodal Representation Learning},
+ year = {Preprint}
+}
+
+@Unpublished{wang2021lightseq2,
+  author  = {Xiaohui Wang and Ying Xiong and Xian Qian and Yang Wei and Lei Li and Mingxuan Wang},
+  title   = {{LightSeq2}: Accelerated Training for Transformer-based Models on GPUs},
+  year    = {2021},
+  journal = {ArXiv preprint},
+  volume  = {abs/2110.05722},
+}
+
+@Unpublished{xu2020reciprocal,
+  author  = {Minkai Xu and Mingxuan Wang and Zhouhan Lin and Hao Zhou and Weinan Zhang and Lei Li},
+  title   = {Reciprocal Supervised Learning Improves Neural Machine Translation},
+  year    = {2020},
+  journal = {ArXiv preprint},
+  volume  = {abs/2012.02975},
+}
+
+@Unpublished{xu2021survey,
+  author  = {Jingjing Xu and Wangchunshu Zhou and Zhiyi Fu and Hao Zhou and Lei Li},
+  title   = {A Survey on Green Deep Learning},
+  year    = {2021},
+  journal = {ArXiv preprint},
+  volume  = {abs/2111.05193},
+}
+
+@Unpublished{yan2019cross,
+  author  = {An Yan and Xin Wang and Jiangtao Feng and Lei Li and William Yang Wang},
+  title   = {Cross-Lingual Vision-Language Navigation},
+  year    = {2019},
+  journal = {ArXiv preprint},
+  volume  = {abs/1910.11301},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
